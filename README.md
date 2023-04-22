@@ -1,49 +1,22 @@
-# Linux, Asterisk, Python ve Django Komutları
+# Komutlar Kılavuzu
 
-Bu README dosyası, Linux, Asterisk, Python ve Django gibi teknolojilerle ilgili yaygın kullanılan komutları içermektedir.
+Bu repo, Linux, Asterisk, Python ve Django gibi teknolojilerle ilgili sık kullandığınız komutlara kolay erişim sağlayan bir dökümantasyon kaynağıdır.
 
-## Linux Komutları
+## Kullanım
 
-### Dosya ve Dizin İşlemleri
+Repo'daki Markdown dosyaları kullanarak ilgili teknolojilere ait komutları bulabilirsiniz. Aşağıda her bir teknolojiye ait komutları içeren dökümantasyon dosyalarının bağlantıları yer almaktadır:
 
-- Dizin içeriğini listeleme: `ls`
-- Dizin değiştirme: `cd`
-- Dizin oluşturma: `mkdir`
-- Dosya veya dizin silme: `rm`
-- Dosya veya dizin taşıma/kopyalama: `mv` / `cp`
-- Dosya içeriğini görüntüleme: `cat`
-- Dosya oluşturma: `touch`
+- [Linux Komutları](linux.md)
+- [Asterisk Komutları](asterisk.md)
+- [Python Komutları](python.md)
+- [Django Komutları](django.md)
 
-### Paket Yönetimi
+## Katkıda Bulunma
 
-- Paket güncelleme: `sudo apt update`
-- Paket yükleme: `sudo apt install`
-- Paket kaldırma: `sudo apt remove`
-- Paket arama: `sudo apt search`
+Eğer kendi komutlarınızı eklemek veya mevcut dökümantasyona katkıda bulunmak isterseniz, lütfen GitHub repo'muza bir pull isteği gönderin. Katkılarınızı memnuniyetle karşılayacağız!
 
-## Asterisk Komutları
+## Lisans
 
-- Asterisk'i başlatma: `asterisk -rvvvv`
-- Bir dahili aramak: `dialplan extension_number`
-- Bir dış numarayı aramak: `dial SIP/external_number`
-- Bir çağrıyı sonlandırmak: `hangup channel`
+Bu repo, [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi için lisans dosyasını inceleyebilirsiniz.
 
-## Python Komutları
-
-- Python kodunu çalıştırma: `python script.py`
-- Python paketi kurma: `pip install`
-- Python paketi güncelleme: `pip install --upgrade`
-- Python paketi kaldırma: `pip uninstall`
-
-## Django Komutları
-
-- Django projesi oluşturma: `django-admin startproject project_name`
-- Django uygulaması oluşturma: `python manage.py startapp app_name`
-- Django geliştirme sunucusunu başlatma: `python manage.py runserver`
-- Django modeli veritabanına uygulama: `python manage.py makemigrations` ve `python manage.py migrate`
-- Django yönetici hesabı oluşturma: `python manage.py createsuperuser`
-
----
-
-Bu README dosyası, sürekli olarak güncellenen bir kaynak olarak kullanılabilir. Siz de kendi komutlarınızı ekleyerek veya dökümanınızı istediğiniz gibi özelleştirerek kullanabilirsiniz.
 

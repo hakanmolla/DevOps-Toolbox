@@ -10,6 +10,7 @@ Repo'daki Markdown dosyaları kullanarak ilgili teknolojilere ait komutları bul
 - [:telephone_receiver: Asterisk Komutları](asterisk.md)
 - [:snake: Python Komutları](python.md)
 - [:rocket: Django Komutları](django.md)
+- [:bomb: Tmux-](Tmux-Hakkında.md)
 
 ## :bulb: Katkıda Bulunma
 

@@ -11,7 +11,7 @@ Repo'daki Markdown dosyaları kullanarak ilgili teknolojilere ait komutları bul
 - [:snake: Python Komutları](python.md)
 - [:rocket: Django Komutları](django.md)
 - [:bomb: Tmux-ssh ](Tmux-Hakkında.md)
-- [:fire_engine:](Ubuntu-Minimal-Tools.md)
+- [:fire_engine: Ubuntu-Minimal-Tool ](Ubuntu-Minimal-Tools.md)
 
 ## :bulb: Katkıda Bulunma
 

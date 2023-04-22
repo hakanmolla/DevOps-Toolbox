@@ -1,4 +1,4 @@
-## Paketlerin Kurulumu
+## Ubuntu Minimal Kurulumdan Sonra Faydalı Paketlerin Kurulumu
 
 Aşağıdaki komutlarla paketlerinizi güncelleyebilir ve istediğiniz paketleri kurabilirsiniz:
 

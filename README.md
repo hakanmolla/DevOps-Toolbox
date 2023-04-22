@@ -7,7 +7,7 @@ Bu repo, Linux, Asterisk, Python ve Django gibi teknolojilerle ilgili sık kulla
 Repo'daki Markdown dosyaları kullanarak ilgili teknolojilere ait komutları bulabilirsiniz. Aşağıda her bir teknolojiye ait komutları içeren dökümantasyon dosyalarının bağlantıları yer almaktadır:
 
 - [:penguin: Linux Komutları](linux.md)
-- [:pencil2: Djangoya Basla](Django-Sanal-Ortam-Olusturma.md)
+- [:pencil2: Djangoya Sanal Ortam Kurulumu](Django-Sanal-Ortam-Olusturma.md)
 - [:telephone_receiver: Asterisk Komutları](asterisk.md)
 - [:snake: Python Komutları](python.md)
 - [:rocket: Django Komutları](django.md)

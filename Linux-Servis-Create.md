@@ -5,9 +5,15 @@ bir yapılandırma yapabileceğinizi adım adım öğreneceksiniz. Hadi başlaya
 
 ## Adım 1: Servis Dosyası Oluşturma
 
-Öncelikle, yeni bir servis dosyası oluşturacağız. Servis dosyası, servisinizin çalışma düzenini ve yapılandırmasını belirleyen bir yapıdır. Bir metin düzenleyici kullanarak aşağıdaki içeriği içeren bir dosya oluşturun ve `.service` uzantısı ekleyerek dosyaya bir isim verin:
+Öncelikle, yeni bir servis dosyası oluşturacağız. Servis dosyası, servisinizin çalışma düzenini ve yapılandırmasını belirleyen bir yapıdır. Bir metin düzenleyici kullanarak **/etc/systemd/system/** dizin içine  aşağıdaki içeriği içeren bir dosya oluşturun ve `.service` uzantısı ekleyerek dosyaya bir isim verin: 
 
 ```bash
+
+sudo vim /etc/systemd/system/myservice.service
+
+
+
+
 [Unit]
 Description=My Awesome Service
 After=network.target
@@ -25,7 +31,7 @@ WantedBy=multi-user.target
 
 
 
-**Description:** Servisiniz için heyecan verici bir açıklama metni yazın! 😎
+**Description:** Servisiniz için heyecan verici bir açıklama metni yazın! 
 **After:** Servisinizin ne zaman başlamasını istediğinizi belirleyin. Örneğin, network.target ağ hizmetlerinin başlamasını beklemek için kullanılabilir.
 **User ve Group:** Servisinizin hangi kullanıcı ve grup kimlikleri ile çalışacağını belirleyin.
 **ExecStart:** Servisinizin başlatılmasını tetikleyen komut veya betiği belirtin.
@@ -48,7 +54,7 @@ sudo systemctl daemon-reload
 ## Adım 4: Servisi Başlatma ve Etkinleştirme
 
 ```bash
-sudo systemctl start
+sudo systemctl start myservice.service
 ```
 
 Artık betiğiniz, oluşturulan servis dosyası aracılığıyla Linux sisteminizde bir servis olarak çalıştırılacaktır. Servisi durdurmak, yeniden başlatmak veya 
@@ -60,4 +66,4 @@ sudo systemctl restart myservice
 sudo systemctl status myservice
 ```
 
-Artık servisimizi başlatabilir ve etkinleştirebiliriz: Kolay Gelsin 
+Artık servisimizi başlatabilir ve etkinleştirebiliriz: Kolay Gelsin 😎

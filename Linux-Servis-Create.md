@@ -31,12 +31,12 @@ WantedBy=multi-user.target
 
 
 
-**Description:** Servisiniz için heyecan verici bir açıklama metni yazın! 
-**After:** Servisinizin ne zaman başlamasını istediğinizi belirleyin. Örneğin, network.target ağ hizmetlerinin başlamasını beklemek için kullanılabilir.
-**User ve Group:** Servisinizin hangi kullanıcı ve grup kimlikleri ile çalışacağını belirleyin.
-**ExecStart:** Servisinizin başlatılmasını tetikleyen komut veya betiği belirtin.
-**Restart ve RestartSec:** Servisinizin otomatik olarak yeniden başlatılması gerektiğinde ne zaman ve nasıl yeniden başlatılacağını belirleyin.
-**WantedBy:** Servisinizin hangi hedefe bağlanacağını belirleyin. multi-user.target genellikle kullanıcı modunda çalışan hedeftir.
+- **Description:** Servisiniz için heyecan verici bir açıklama metni yazın! 
+- **After:** Servisinizin ne zaman başlamasını istediğinizi belirleyin. Örneğin, network.target ağ hizmetlerinin başlamasını beklemek için kullanılabilir.
+- **User ve Group:** Servisinizin hangi kullanıcı ve grup kimlikleri ile çalışacağını belirleyin.
+- **ExecStart:** Servisinizin başlatılmasını tetikleyen komut veya betiği belirtin.
+- **Restart ve RestartSec:** Servisinizin otomatik olarak yeniden başlatılması gerektiğinde ne zaman ve nasıl yeniden başlatılacağını belirleyin.
+- **WantedBy:** Servisinizin hangi hedefe bağlanacağını belirleyin. multi-user.target genellikle kullanıcı modunda çalışan hedeftir.
 
 ##  Adım 2: Servis Dosyasını Kaydetme ve İzinlerini Güncelleme
 

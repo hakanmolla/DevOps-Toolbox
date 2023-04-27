@@ -22,7 +22,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 ## 1xx = Bilgi İçerikli SIP Cevapları
 ---
 
-'100 Deniyor' – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
+`100 Deniyor` – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
 '180 Çalıyor' – Hedef Kullanıcı Temsilcisi DAVET mesajını almış ve aramanın kullanıcısına uyarı vermektedir.
 '181 Arama' Yönlendiriliyor – İsteğe bağlıdır, aramanın yönlendirildiğini belirtmek için Sunucu gönderir.
 182 Sıraya Alındı – Hedef geçici olarak kullanılamıyor; sunucu, hedef kullanılana kadar aramayı sıraya aldı.

@@ -87,7 +87,7 @@ Gelen çağrıların rastgele gelmesi. (Gelen çağrının birden fazla kampanya
 
 Arayanların otomatik olarak daha önceden kayıt edilmiş anonslara ulaşabileceği ses işlemcisi imkanı. (Arayana anons ile isminin söylenmesi. ÖRN: Sayın Hakan Bey)
 
-Average Time to Abandon (ATA)
+**Average Time to Abandon (ATA)**
 
 Cevaplanamayan çağrıların ortalama hatta bekleme süresidir. ATA=(Toplam Abandoned Time)/(Abondoned Calls) Çağrıların hattan düşene kadar kuyrukta geçen bekleme süresinin toplam cevaplanamayan çağrılara oranıdır.(Örn: Cevaplanamayan çağrıların durumlarının raporudur. Buna da Kaçan Çağrı Raporu denir.)
 
@@ -95,7 +95,7 @@ Azalan Değer Kuralı (Law of Diminishing Returns)
 
 Sisteme eklenen her temsilcinin belirli bir noktadan sonra Hizmet Seviyesinde yarattıkları azalışı gösteren marjinal artıştır. (Örn: Çağrı merkezinde çalışan 3 kullanıcının çok çağrı kaçırması sonucu bir çağrı açılma azalışı yaşanır , bunun neticesinde 2 kullanıcı daha eklendiğinde oluşan Hizmet Seviyesindeki artışın yaşanması. Bu olumlu sonuca verilen addır.)
 
-Basic Rate Interface (BRI)
+**Basic Rate Interface (BRI)**
 
 ISDN servisinin iki ana derecesinden biridir. Bir BRI hattı, ses ve veri için iki, sinyalleme için bir kanal sağlar. (genelde 2B + D olarak da ifade edilir.) (İki kanal çağrı almaya yarayan bir hat sonlandırma teknolojisi)
 
@@ -107,7 +107,7 @@ Baz Çalışan Adedi / Base Staff / Seated Agents
 
 Belirli bir zaman diliminde servis seviyesi ve cevaplama süresi hedeflerini karşılamak için gerekli olan minimum çalışan adedini gösteren bir değerdir. Bu model tüm operatörlerin vardiya saatlerinde yerlerinde olacağını varsayar. (Örn: Daha önceki günlerde saatlik arama raporlarını çıkararak; personellerin en yoğun saat dilimi belirlenmiş olur. Belirlenen saat dilimine göre bir vardiya sistemi oluşturulur. Bu oluşturulan sisteme Baz Çalışan Adedi denir)
 
-Bilgisayar Simülatörü (Computer Simulation)
+**Bilgisayar Simülatörü (Computer Simulation)**
 
 İleride karşılaşılabilecek birçok farklı durumun sonucunu tahmin eden bir bilgisayar tekniğidir. Birçok değişkenin olduğu bir durumda simülatör neredeyse sonucu tahmin eden tek makul yoldur. (Sistemden beklenmeyen anlık yoğunluklarda, daha önce sisteme tanımlanmış çağrı yönetim şeklinin uygulanması , kısmi olarak her çağrının bir cevaba ulaşması için yapay zeka mantığında çağrı yönetiminin sağlanmasıdır.)
 
@@ -115,7 +115,7 @@ Bilgisayar Telefon Entegrasyonu / CTI / Computer Telephony Integration
 
 Telefon ve bilgisayar sistemlerinin çagri kontrolü ve veritabanı bazlı işlemler amacıyla birbirleri ile entegre sekilde çalışması esasına dayalı bir teknolojidir. (Click to Call ve Outlook üzerindeki kişilerin sistem üzerinden aranması bir örnektir.)
 
-Bip Sesi (Beep Tone)
+**Bip Sesi (Beep Tone)**
 
 Bir çağrı geldiğine dair sesli bir bildirimdir. (Zip Tone da denir.) Bip Sesi, duyulabilecek bir uyarı olarak aynı zamanda bir çağrının denetlendiğini de gösterir.
 
@@ -127,11 +127,11 @@ Birden Fazla Lisan Bilen (Multilingual Agents)
 
 Bir çok dilde akıcı konuşan temsilcilere verilen addır.
 
-Blockage (Tıkanma)
+**Blockage (Tıkanma)**
 
 Bir sıraya giren arayanların önünün tıkanmasına verilen addır.(Örn: Bankaları aradığımızda agenta ulaşmadan önce duyduğumuz IVR katmanları)
 
-Boştaki trunklar (Trunks Idle)
+**Boştaki trunklar (Trunks Idle)**
 
 Trunk grubundaki meşgul olmayan trunklardır. (Sisteme tanımlı olan hatların anlık durumunu gösterir.)
 
@@ -151,7 +151,7 @@ Cevaplanamayan Çağrı / Abondoned Call
 
 Kaybedilen çağrı olarak da adlandırır. Arayanın müşteri temsilcilerinin yer aldığı kuyruğa dahil olduktan sonra, bir temsilciye ulaşmadan telefonu kapatmasıdır. Bu mevcut durum IVR içerisinde de yaşanabilir.
 
-Cevaplanan Çağrı (Answered Call)
+**Cevaplanan Çağrı (Answered Call)**
 
 Bir temsilci grubuna atıfta bulunulduğunda, bir çağrının bir temsilciye ulaştığı zaman yanıtlanmış sayılmasını ifade eder.
 
@@ -159,11 +159,11 @@ Churn Rate / Attrition Rate
 
 Bir firmanın müşterilerinin memnuniyetsizlik, fiyatlar, yer değiştirme benzeri sebeplerden dolayı başka bir firmadan hizmet almaya başlayanlarının oranını gösterir. (Agentların yapmış olduğu arama sonucu oluşan rapor türüdür.)
 
-Common Causes (Yaygın Nedenler)
+**Common Causes (Yaygın Nedenler)**
 
 Zaman içinde bir sürece has değişikliklerin nedenleridir. Sebepler sisteminde ritmik ve yaygın değişikliklere yol açarlar. Süreçlerin ve bu süreçlerle ilgilenen herkese etki ederler. (Bakınız Special Causes.)(Kampanya aramaları esnasında kampanyaya gelen bir özellik sebebiyle yapılan aramaların tekrarlanması ve daha önce verilen bilgilerin güncellenerek verilmesi işlemine denir.)
 
-Computer Telephony Integration (CTI)
+**Computer Telephony Integration (CTI)**
 
 Bilgisayarları ve telefonları birlikte ve zekice çalışmalarını sağlamak için gerekli yazılım, donanım ve programlamadır.
 
@@ -183,43 +183,43 @@ Bir müşteri ile değişik kanallardan(telefon, video, faks, e-mail, chat, sms 
 
 Belli bir zaman dilimi için çağrı merkezinin tüm operasyonel maliyetlerinin gelen çağrılara oranını gösteren finansal tabanlı bir çağrı merkezi performans verisidir.
 
-Çağrı Detay Kaydı (Call Detail Recording)
+**Çağrı Detay Kaydı (Call Detail Recording)**
 
 Her bir çağrıya ait veri ACD tarafından elde edilir ve depolanır. Kullanılan trunkı, sıradaki zamanı, çağrı süresini, çağrıyı yanıtlayan kişiyi, aranmış numarayı (dış aramalar için) ve diğer bilgileri içerir.(Çağrı Detay Raporu bu bilgilere örnektir.)
 
-Çağrı Giriş Numarası / Caller - Entered Digits / (CED)
+**Çağrı Giriş Numarası / Caller - Entered Digits / (CED)**
 
 Arayanların telefon tuşlarını kullanarak girdikleri numaralardır.
 
-Çağrı Harmanlama (Call Blending)
+**Çağrı Harmanlama (Call Blending)**
 
 Geleneksel olarak ayrı olan inbound ve outbound temsilci gruplarını hem inbound hem de outbound temasları birlikte yürütmekten sorumlu bir grupta birleştirir. Gelen çağrı yüküne göre outbound arama yapan temsilcileri inbound moduna veya tam tersini otomatik olarak harmanlayan bir sistemdir. (Agentın çalışma türüne göre hem ınbound hem outbound alma işlemidir.)
 
-Çağrı Kalitesi / Call Quality
+**Çağrı Kalitesi / Call Quality**
 
 Müşteri ile yapılan gelen veya giden temasın belirtilen kalite standartlarına hangi oranda uyduğunu gösteren bir veridir. (Örn: Viases Recorder içerisinde yer alan Kalite Yönetimi ekranı)
 
-Çağrı Karşılama Oranı / AR / Answer Rate
+**Çağrı Karşılama Oranı / AR / Answer Rate**
 
 Müşteri temsilcisi tarafından cevaplanan çağrıların müşteri temsilcisine gelen toplam çağrı sayısına oranıdır.
 
-Çağrı Kontrolü Değişkenleri (Call Control Variables)
+**Çağrı Kontrolü Değişkenleri (Call Control Variables)**
 
 Çağrıları işleme sokabilmek için ACD'nin kullandığı bir dizi kriterdir. Yönlendirme kriteri, çağrı taşıma parametreleri, kaydedilen mesajlar ve eşik zamanlaması gibi örnekler verilebilir. (Örn: Turkcell arandığında ödenmemiş faturanız vardır anonsunun gelmesi ve daha sonra finans tarafına aktarılması. Finansta işlemin bitmesinden sonra işleminizi yapabilmeniz eylemidir.)
 
-Çağrı Merkezi / Temas Merkezi / Call Center / Contact Center / Interaction Center
+**Çağrı Merkezi / Temas Merkezi / Call Center / Contact Center / Interaction Center**
 
 Çağrı Merkezi, kurumların müşterileriyle olan ve değişik kanallardan gerçekleşen “etkileşimlerini” belirli bir strateji çerçevesinde yönettikleri, “İnsan, Teknoloji ve İş Süreçlerinden” oluşan organizasyonel birimdir.
 
-Çağrı Merkezi Müşteri Temsilcisi / Agent
+**Çağrı Merkezi Müşteri Temsilcisi / Agent **
 
 Gelen ve giden çağrıları ele alan kişidir. (Müşteri hizmetleri sorumlusu, telefonla satış ve hizmet temsilcisi, temsilci, çalışan, eleman, danışman, mühendis, operatör, teknik eleman, müşteri yöneticisi, takım üyesi, müşteri hizmetleri profesyoneli, uzman gibi diğer isimler de alabilir.)
 
-Çağrı Sırası Tanıma / Calling Line Identity / CLI
+**Çağrı Sırası Tanıma / Calling Line Identity / CLI**
 
 Örnek: Bekleyenler arasında birinci sıradasınız anonsu buna örnektir.
 
-Çağrı Sonrasi İşlem / Çağrı Toparlama Süresi / ACW / After Call Work / Wrap Up Time
+**Çağrı Sonrasi İşlem / Çağrı Toparlama Süresi / ACW / After Call Work / Wrap Up Time**
 
 Operatörün çağrı sonrasında yeni bir çağrı almadan veri girişi, formların doldurulması, dış arama gibi o çağrı ile ilgili yapılması gereken işlere harcanan süredir. Telefon seti bu modda iken operatöre yeni çağrı aktarılmaz.
 
@@ -232,23 +232,23 @@ Manuel : Agent ACW durumuna kendi alır. İşlemi bittiğinde kendi ACW durumund
 
 Gerçek zamandaki duruma göre, her bir çağrıyı en uygun yöne yönlendiren yöntemdir.
 
-Çağrı Yükü (Call Load)
+**Çağrı Yükü (Call Load)**
 
 İş yükü olarak da ifade edilir. Çağrı Yükü, belirlenen bir süre için, (Average Talk Time + Average After Call Work) x çağrı sayısıdır.
 
-Çağrı (Call)
+**Çağrı (Call)**
 
 Transaction (işlem) veya Customer Contact (Müşteri Teması) de denilir. Telefon çağrıları, video çağrıları, web ve diğer tip temasları ifade bir terimdir.
 
-Çağrıyı Sessize Alma (Mute)
+**Çağrıyı Sessize Alma (Mute)**
 
 Müşteri temsilcisinin zorunlu hallerde (öksürmek, hapşırmak vb.) müşterinin ses duymaması için kullandığı tuşlamayı ifade eder. (Müşteriyi bekletme amaçlı kullanılamaz.)
 
-Çapraz Satış / Cross Selling
+**Çapraz Satış / Cross Selling**
 
 Müşteriye genel satın alma eğilimini analiz ederek birbiriyle ilişkili ürün veya hizmetleri satma stratejisidir.
 
-Çift Taraflı İzleme / Peer Monitoring
+**Çift Taraflı İzleme / Peer Monitoring**
 
 Bir operatörün diğer bir operatörün çağrı karşılama ve ele alma şeklini izlemesi ve gelişimine katkıda bulunmak amacı ile yorum yapmasıdır.
 
@@ -256,63 +256,63 @@ Dahili Cevaplama Süresi (Internal Response Time)
 
 Diğer temsilci grupları destekleyen bir temsilci grubunun geldiklerinde cevaplamak zorunda olmadıkları temaslara  verdikleri yanıt için harcanan süre. (örneğin, e-mail) Bakınız Response Time ve Service Level.
 
-Dahili Numara (Extension)
+**Dahili Numara (Extension)**
 
 Müşteri temsilcisinin giriş yaptığı telefonun kısa numarasıdır.
 
-Dahili Yardım Masası (İnternal Help Desk )
+**Dahili Yardım Masası (İnternal Help Desk )**
 
 Diğer dahili temsilci gruplarını destekleyen gruba verilen isimdir. (Örn: Çağrı Merkezi yoğunluğunda oluşan takviye ekiptir. Çağrı Merkezindeki ekiplere yardım için hatta girer ve çağrı yoğunluğunu azaltmak ile görevlendirilebilir.)
 
-Değişmez Kanun (Immutable Law)
+**Değişmez Kanun (Immutable Law)**
 
 Hayati ve değişmez bir doğa kuralıdır. Bir çağrı merkezinde Hizmet Seviyesinin artarken, doluluğun düşmesi bir "Değişmez Kanundur".
 
-Deneme Çağrısı / Sahte Çağrı / Fake Call
+**Deneme Çağrısı / Sahte Çağrı / Fake Call**
 
 Çağrı merkezinin test edilmesi veya müşteri temsilcilerinin eğitimi amacıyla yapılan çağrıya verilen addır.
 
-Denetleme (Monitoring)
+**Denetleme (Monitoring)**
 
 Aynı zamanda Service Observing veya Position Monitoring de denir. Kaliteyi ölçmek için temsilcilerin telefonlarını dinleme yöntemidir. Denetleme: A) Temsilcilerin kendilerinin ne zaman denetlendiklerini bilmedikleri "sessiz" şekildir. B) Denetleyen kişinin Temsilcinin yanına oturup çağrıları gözlemlediği "yan yana" şekildir. C) Kayıt ve değerlendirme. Çağrıların kayıt edilip daha sonra dinlenip değerlendirilmesidir. (Örn : Dashboardlar)
 
-Devre (Circuit )
+**Devre (Circuit )**
 
 Bir ağ içinde iki nokta arasındaki iletişim yoludur.
 
-Dış Arama (Outbound)
+**Dış Arama (Outbound)**
 
 Satış, şikâyet, bilgilendirme, memnuniyet, anket, bilgi güncelleme vs. ile ilgili olarak belirli faaliyetler için müşteri temsilcisinin müşteriye telefon aracılığı ile ulaşmasına denir.
 
-Dış Kaynak Kullanım Şirketi / Service Bureau / Servis Bürosu
+**Dış Kaynak Kullanım Şirketi / Service Bureau / Servis Bürosu**
 
 Gelen ve giden çağrıları başka bir organizasyon için ele alan şirkettir. (Örn: CMC)
 
-Dış Kaynak Kullanımı (Outsourcing)
+**Dış Kaynak Kullanımı (Outsourcing)**
 
 Çağrı merkezinin sadece bazı veya tüm hizmetlerini dışarıya vermektir.
 
-Dışarıyı Arama (Agent Out Call)
+**Dışarıyı Arama (Agent Out Call)**
 
 Bir temsilci tarafından dışarıya gerçekleştirilen aramadır. (Örn: Manuel Arama. Tuşlama yaparak yapılan aramadır.)
 
-Dinamik Cevaplama (Dynamic Answer)
+**Dinamik Cevaplama (Dynamic Answer)**
 
 Gerçek-Zaman sırası bilgilerine dayanarak, sistem çağrılara cevap vermeden önce otomatik olarak zil sayısını belirleyen bir ACD özelliğidir. Uluslararası çağrılar ile ilgili ücretin olduğu durumlarda, maliyet ACD'nin çağrıyı yanıtlamasından sonra başlayacağı için bu özellik çağrı merkezinin ve arayanların tasarruf yapmasına imkan tanır.
 
-Doluluk / Utilization / Occupation
+**Doluluk / Utilization / Occupation**
 
 Operatörlerin belli bir zaman diliminde çağrılar için harcadıkları sürenin (çağrı süresi ve çağrı sonrası işlem süresi) toplam login süresine oranını gösteren bir performans verisidir. Bu hesaplama belli bir zaman aralığı ve belli bir operatör grubu veya tüm çağrı merkezi için de yapılabilir.
 
-Dual -Tone Multifrequency (DTMF)
+**Dual -Tone Multifrequency (DTMF)**
 
 Telefon tuşlarındaki dijitleri göstermek için gönderilen bir çift audio frekansı sinyal sistemidir. DTMF, çoğunlukla Touchtone kavramı ile birbirlerinin yerine geçecek şekilde kullanılır. (Örn: Satış için 1’i tuşlayındaki 1 tuşlaması bir DTMF örneği olarak gösterilebilir.)
 
-Duration
+**Duration**
 
 Cevaplanan çağrılar için müşteri temsilcisinin hizmet verdiği sürelerinin toplamıdır. Duration= (( Talk Time(sn))+(ACW Time (sn)))/60
 
-Düzenli Gelen Çağrılar (Smooth Call Arrival)
+**Düzenli Gelen Çağrılar (Smooth Call Arrival)**
 
 Belirli bir zaman aralığıyla düzenli olarak gelen çağrılardır. Çağrı alan (inbound) çağrı merkezlerinde gerçekte bulunmazlar.
 
@@ -320,31 +320,31 @@ Ekran Denetimi (Screen Monitoring)
 
 Bir temsilcinin bilgisayardaki aktivitelerinin bir yönetici veya müdür tarafından denetlenmesini sağlayan bir sistemdir. (Örn: Viases Screen Recorder)
 
-Ekran Yenileme (Screen Refresh)
+**Ekran Yenileme (Screen Refresh)**
 
 O anki bilgilerin göstergede update edilme oranıdır. (Ör., 5 veya 15 saniyede bir). Gerçek zaman için kullanılan hesaplamalarda ekran yenilemenin zaman dilimi ile bir iilişkisi yoktur. (Örn: Agent  durumlarının takip edildiği monitörün yenilenme süresidir.)
 
-Ele Alma Süresi (Handling Time)
+**Ele Alma Süresi (Handling Time)**
 
 Temsilcinin konuşma süresi için ve çağrı sonrası işinde harcadığı toplam süredir. Bir aygıtında bir işlemi ele alması için harcadığı zaman için de bu terim kullanılır.(Bir çağrı için harcanan toplam zamandır.)
 
-Elektronik Posta / Electronic Mail / E- mail
+**Elektronik Posta / Electronic Mail / E- mail**
 
 Elektronik metin postasına denir.
 
-Empati
+**Empati**
 
 Empati, Kişinin kendisini psikolojik olarak bir başka kişinin yerine koyabilmesi, o kişinin hissettiklerini hissedebilmesidir.
 
-En Uzun Bekletme / En Eski Çağrı / Longest Delay / Oldest Call
+**En Uzun Bekletme / En Eski Çağrı / Longest Delay / Oldest Call**
 
 Arayanların kapamadan veya bir temsilciye ulaşmadan sırada bekledikleri en uzun zamandır.
 
-En Uzun Süredir Müsait Temsilci (Longest Available Agent)
+**En Uzun Süredir Müsait Temsilci (Longest Available Agent)**
 
 En uzun boş kalan temsilciye çağrı dağıtma metodudur. Bir kuyruğun var olması durumunda, en uzun boş kalan temsilci "sıradaki müsait temsilci" olur. Bakınız Next Available Agent.
 
-En Yoğun Saat / Peak Hour / Rush Hour
+**En Yoğun Saat / Peak Hour / Rush Hour**
 
 Genellikle bir gün veya belli günler için yapılan ölçümlerde elde edilen ve çağrıların en yoğun geldiği saatleri gösteren zaman dilimidir.
 
@@ -352,11 +352,11 @@ Erlang
 
 Bir saatlik bir zaman içinde bir saatlik telefon trafiğidir. Örneğin, devreler 1 saat içinde 120 dakikalık trafik taşırsa, bu 2 Erlang'dır.
 
-Eskalasyon / Escalation
+**Eskalasyon / Escalation**
 
 Temasların durumu hakkında bilgisi olması gereken üst kademe kişilerin uyarılması, gerekli durumlarda desteklerinin talep edilmesi ve yapılanlar hakkında bilgi aktarılması amacıyla genellikle sistem üzerinden yapılan bilgilendirmelerdir.
 
-Eşik (Threshold)
+**Eşik (Threshold)**
 
 Bir hareketin, değişimin veya yöntemin başladığı noktadır.
 
@@ -364,273 +364,273 @@ Etkileşimli Sesli Yanıt Sistemi / IVR / Interactive Voice Response
 
 Uzak bilgisayar sistemlerine telefon üzerinden erişerek, telefon tuşları ve/veya sesli komutlar kullanarak interaktif (veritabanı bazlı) işlem yapmayı sağlayan sistemlerdir. IVR aynı zamanda kurumların dış arama uygulamaları için de kullanılmaktadır.
 
-Ev Operatörü / Home Agent
+**Ev Operatörü / Home Agent**
 
 Kendi evinden veya çağrı merkezi lokasyonu dışındaki bir yerden çağrı merkezine bağlanarak çalışan operatörlere verilen isimdir.
 
-Faks isteği (Fax on Demand)
+**Faks isteği (Fax on Demand)**
 
 Arayıcıları telefon tuşlarını kullanarak doküman talep etmesini sağlayan bir sistemdir. Arayanların seçtikleri dokümanlar belirttikleri numaralara gönderilir.
 
-Full -Time Equivalent (FTE)
+**Full -Time Equivalent (FTE)**
 
 Planlanmış toplam çalışma saatinin, bir haftada bulunan toplam iş saatine bölünmesidir.Birçok "part time" çalışanın çalıştığı saatlerin toplamı 1 FTE'ye eşit olabilir.
 
-Gecikme (Delay)
+**Gecikme (Delay)**
 
 Aynı zamanda Sıra Süresi de denilir. Arayanın bir temsilci boşalana kadar sırada geçirdiği süredir. Ortalama Gecikme, Ortalama Cevap Hızı ile aynı şeydir. Aynı zamanda bakınız Delay of Delayed Calls.
 
-Gecikme Anonsları (Delay Announcements)
+**Gecikme Anonsları (Delay Announcements)**
 
 Arayanları, bir temsilci boşalana kadar beklemeleri, hesap numaralarını hazırlamaları, görüşme seçenekleri konusunda bilgi vermek için teşvik eden kaydedilmiş anonslardır. Bazı sistemlerde gecikme anonsları, önceden kaydedilmiş anons yönlendirmeleriyle yapılır.
 
-Gecikme Maliyeti (Cost of Delay)
+**Gecikme Maliyeti (Cost of Delay)**
 
 Ücretsiz servis verdiğiniz durumlarda, arayanların sırada tutulmasının maliyetidir.
 
-Gecikmiş Çağrı (Delayed Call)
+**Gecikmiş Çağrı (Delayed Call)**
 
 Hemen cevaplanamayan ve sıraya sokulan çağrıdır.
 
-Gecikmiş Çağrıların Ortalama Gecikmesi (Average Delay of Delayed Calls)
+**Gecikmiş Çağrıların Ortalama Gecikmesi (Average Delay of Delayed Calls)**
 
 Gecikmiş çağrıların ortalama gecikmesidir. Bütün çağrıların gecikmesinin, sırada beklemek zorunda kalan çağrılara bölünmesidir.
 
-Geçmiş Raporlar (Historical Reports)
+**Geçmiş Raporlar (Historical Reports)**
 
 Belirli bir süre için çağrı merkezi ve müşteri temsilcisi performansını takip eden raporlardır. Geçmiş raporlar, ACD'ler, ACD software paketleri , VRU ve Call Detail Recording Systems gibi aygıtlar tarafından üretilirler. Geçmişe ait verilerin depolanması ve raporlanması sistemden sisteme değişir.
 
-Gelen Çağrı / Inbound Call / Incoming Call
+**Gelen Çağrı / Inbound Call / Incoming Call**
 
 Müşterinin başlatmış olduğu ve çağrı merkezine doğru yapılan çağrıdır.
 
-Gelen Çağrılar (Received Calls )
+**Gelen Çağrılar (Received Calls )**
 
 Bir trunk tarafından fark edilen ve yakalanan çağrı. Kabul edilen çağrılar ya terk edilir ya da temsilciler tarafından ele alınır.
 
-Geniş Ağ Şebekesi / Wide Area Network / WAN
+**Geniş Ağ Şebekesi / Wide Area Network / WAN**
 
 Normal olarak dijital data devrelerinde kullanılan, geniş bir alan içinde çoklu bilgisayarlar arasındaki bağlantıdır.
 
-Gerçek Zaman Yönetimi (Real-Time Management)
+**Gerçek Zaman Yönetimi (Real-Time Management)**
 
 Güncel kuyruk durumuna göre çalışanlarla ilgili veya sistem eşiklerinde ayarlamalar gerçekleştirmektir.
 
-Gerçek-Zaman Uyumu Yazılımı (Real -Time Adherence Software)
+**Gerçek-Zaman Uyumu Yazılımı (Real -Time Adherence Software)**
 
 Temsilcilerin vardiya planlarına ne kadar uyduklarını göstermeye yarayan bir yazılımdır.
 
-Gerçek-Zamanlı Veri (Real-Time Data Anlık)
+**Gerçek-Zamanlı Veri (Real-Time Data Anlık)**
 
 Güncel durumlarla ilgilidir. Bazı anlık bilgiler en "gerçek zamanlı" bilgilerdir. (örneğin, kuyruktaki çağrılar ve kuyruktaki en uzun bekleme). Bazı anlık raporlar ise hesaplama yapmak için (örneğin, servis seviyesi ve ortalama yanıt hızı) geçmiş zaman içerir (örneğin, en son x çağrı sayısı veya x dakika).
 
-Geriye Bakarak Sıraya Sokma (Look Back Queuing)
+**Geriye Bakarak Sıraya Sokma (Look Back Queuing)**
 
 Bir sistem veya şebekenin çağrıyı ikinci bir sıraya taşırdıktan sonra tekrar ilk sıraya dönüp bakabilmesi, durum değerlendirmesi yapabilmesi yeteneğidir. Tıkanıklık açılırsa çağrı tekrar ilk sıradaki yerine gönderilir.
 
-Giden Çağrı / Dış Çağrı / Outbound Call / Outgoing Call
+**Giden Çağrı / Dış Çağrı / Outbound Call / Outgoing Call**
 
 Çağrı merkezinin başlatmış olduğu ve müşteriye doğru yapılan çağrıdır.
 
-Giriş (Gateway)
+**Giriş (Gateway)**
 
 Bir şebekeye işlem sağlamayı amaçlayan bir sunucudur .
 
-Gizli Müşteri Uygulaması / Mysterious Call
+**Gizli Müşteri Uygulaması / Mysterious Call**
 
 Kurumların çağrı merkezlerinin ve zaman zaman da rakiplerin iletişim ve bilgi seviyesini ölçmek amacıyla gerçek ya da potansiyel müşteri gibi davranan kişiler tarafından aranarak (kurumun kendi ekibi veya dış kaynak yoluyla) bu aramaların objektif kriterlere göre değerlendirilmesi ve farklı bakış açılarından raporlanmasıdır.
 
-Görünmez Sıra (Invisible Queue )
+**Görünmez Sıra (Invisible Queue )**
 
 Arayıcıların sıranın ne kadar uzun ve ne kadar hızlı ilerlediğini bilmedikleri kuyruk türüdür. Bakınız Visible Queue.
 
-Haftalık Gün Rotası (Day of Week Routing )
+**Haftalık Gün Rotası (Day of Week Routing )**
 
 Haftanın günlüne göre, çağrıları alternatif lokasyonlara yönlendiren bir ağ sistemidir. İstenirse o günün belirli saatleri için de yönlendirme opsiyonu bulunmaktadır.
 
-Handled Calls
+**Handled Calls**
 
 Santralin giriş noktasından sonra tuşlama sonucuna göre Müşteri temsilcisi kuyruklarına gelen ve Müşteri Temsilcileri tarafından cevaplanan çağrıların toplamıdır.
 
-Hat (The Line)
+**Hat (The Line)**
 
 Geniş bir alan üzerinde iki tane ACD veya PBX' i bağlayan özel bir devredir.
 
-Hata Oranı (Error Rate)
+**Hata Oranı (Error Rate)**
 
 Ya kusurlu işlerin sayısı ya da bir işlemi yaparken atılan kusurlu adımların sayısıdır.
 
-Havuz Prensibi (Pooling Principle)
+**Havuz Prensibi (Pooling Principle)**
 
 Kaynakları konsolide etmeye / birleştirmeye yönelik girişimler trafik taşıma verimini arttırmakla sonuçlanır. Tersine bir hareket verimi düşürmekle sonuçlanır.
 
-Hızlı Terk Eden (Fast Clear Down)
+**Hızlı Terk Eden (Fast Clear Down)**
 
 Gecikme anonsunu duyduğu zaman hemen kapatan arayandır.
 
-Hilekarlık / Fraud
+**Hilekarlık / Fraud**
 
 Sistemin açıklarını kullanarak kişisel kazanım elde etme veya sisteme hasar verme amaçlı kasıtlı yapılan aldatmadır.
 
-Hold Time
+**Hold Time**
 
 Müşteri temsilcisinin hattındaki müşteriyi bekletme süresidir.
 
-Home Agent
+**Home Agent**
 
 Bir organizasyonun binasının içinde çalışmaktansa telekomünikasyonu kullanarak evden veya diğer yerlerden çalışmaktır
 
-Hoşgeldin Çağrısı / Happy Call / Welcome Call
+**Hoşgeldin Çağrısı / Happy Call / Welcome Call**
 
 Müşterilerin, almış oldukları ürün veya hizmet ile ilgili olarak aranmasıdır. Memnuniyet belirleme veya anket uygulamaları için yapılır.
 
-Imaging
+**Imaging**
 
 Dokümanların taranarak elektronik olarak stoklanması işlemdir.
 
-Index Faktörü (Index Factor)
+**Index Faktörü (Index Factor)**
 
 Tahmin yaparken başka bir sayıyı ayarlamak için çarpan olarak kullanılan orandır.
 
-Integrated Services Digital Network (ISDN)
+**Integrated Services Digital Network (ISDN)**
 
 Telefon iletişimi için alınmış bir dizi uluslararası  standart settir. ISDN "end to end dijital ağ", "out of band" sinyali sağlar ve eski telefon servislerinden daha geniş band ağına sahiptir. . ISDN' nin iki standart seviyesi Basic Rate Interface (BRI) ve Primary Rate Interface (PRI) dir. Bakınız Basic Rate Interface ve Primary Rate Interface.
 
-Internet "Ara Beni" İşlemi (Internet "Call Me" Transaction )
+**Internet "Ara Beni" İşlemi (Internet "Call Me" Transaction )**
 
 Web sayfasını incelerken, Çağrı Merkezi tarafından geri aranmak isteyen müşterinin işlemidir.
 
-Intranet
+**Intranet**
 
 Müşteriden gelen taleplerin hızlı ve doğru bir şekilde ele alınabilmesi için gerekli bilgilere hızlı erişimi sağlamak amacıyla oluşturulan ve sadece kurum içine açık olan internet tabanlı bilgi havuzu sistemidir.
 
-İlave Değer Analizi (Incremental Revenue (Value) Analysis)
+**İlave Değer Analizi (Incremental Revenue (Value) Analysis)**
 
 Bir temsilciyi ekleme veya çıkarma değerini (maliyet ve gelir ) tahmin eden metodoloji.
 
-İleriye Bakarak Sıraya Sokma (Look Ahead Queuing)
+**İleriye Bakarak Sıraya Sokma (Look Ahead Queuing)**
 
 Bir sistemin veya şebekenin ilk sıradaki çağrılar taşınmadan önce ikincil bir sırayı araştırması ve durum değerlendirmesi yapabilmesi yeteneğidir.
 
-İlk Aramada Çözüm / FCR / First Call Resolution
+**İlk Aramada Çözüm / FCR / First Call Resolution**
 
 Müşteri ile yapılan ilk çağrıda çözümlenen ve o konu ile ilgili tekrar çağrı gerektirmeyen temasların tüm temaslara oranını gösteren bir çağrı merkezi performans verisidir.
 
-ilk Temasta Çözüm ( FCR First Contact Resolution)
+**ilk Temasta Çözüm ( FCR First Contact Resolution)**
 
 Bir müşteri için belli periyodda aynı konu(request)da atılmış birden fazla request, mükerrer request(çağrı) olarak adlandırılmaktadır.
 
-İnteraktif Etkileşimli Sesli Yanıt Sistemi (IVR)
+**İnteraktif Etkileşimli Sesli Yanıt Sistemi (IVR)**
 
 Telefonda tuşlama yapmak ya da sesle yönlendirmek suretiyle bilgi alışverişinde bulunulmasını ve işlem yapılmasını sağlayan bir sistemdir.
 
-İş Akış Diyagramı (Flowchart)
+**İş Akış Diyagramı (Flowchart)**
 
 Bir sürecin adım adım diyagramıdır.
 
-İş Gücü Yönetim Yazılımı (Workforce Management Software)
+**İş Gücü Yönetim Yazılımı (Workforce Management Software)**
 
 Vardiya planlarını organize etmeye, grupların ve bireylerin anlık performanslarına, personelin gereksinim hesaplarına, çağrı yükü tahminlerine imkan tanıyan yazılımdır.
 
-İş Kodları (Wrap Up Codes)
+**İş Kodları (Wrap Up Codes)**
 
 Temsilcilerin ne tür çağrılarla ilgilendiklerini tespit etmek için ACD' ye girdikleri kodlardır. ACD daha sonra bu bilgilerden çeşitli raporlar üretir.
 
-İş Üzerinde Eğitim / OJT / On The Job Training / Hands On Training
+**İş Üzerinde Eğitim / OJT / On The Job Training / Hands On Training**
 
 Genellikle klasik sınıf eğitimi ile desteklenen ve operatörün çalışma ortamında planlanan, organize edilen ve yürütülen bir eğitim programıdır. Bu modelde profesyonel bir eğitimci veya deneyimli bir çalışan kurs eğiticisi olarak görev yapar.
 
-İşlek Saat (Busy Hour)
+**İşlek Saat (Busy Hour)**
 
 Bir trunk grubunun, gün içinde en yoğun trafiği taşıdığı saati açıklayan bir telefon trafik mühendisliği terimidir. Ortalama işlek zaman, gün veya iki hafta gibi belirli bir süreyi yansıtır. İşlek saat çağrı merkezleri için fazla anlam ifade etmez, daha spesifik kaynak kullanım hesaplama metodolojilerine ihtiyaç vardır.
 
-İşyükü (Workload)
+**İşyükü (Workload)**
 
 Bazen çağrı yükü olarak da kullanılır. Aynı zamanda çağrı dışı aktiviteleri de kapsar.
 
-İzinli Pazarlama / Permission Based Marketing
+**İzinli Pazarlama / Permission Based Marketing**
 
 Tüketicilerin değişik yollarla kendi izinleri doğrultusunda vermiş oldukları kişisel bilgilerinin kullanılarak ilgi alanları ve ihtiyaçlarına yönelik yapılan pazarlama çalışmalarının tümünü kapsamaktadır.
 
-Kapanan Çağrı / Terk Çağrı / Abandoned Call
+**Kapanan Çağrı / Terk Çağrı / Abandoned Call**
 
 ACD kuyruğuna alınan fakat bir operatör tarafından cevaplanmadan önce müşteri tarafından kapatılan çağrılardır. Dış aramalarda otomatik arama sonucu müşteri bağlandığında müsait operatör olmaması dolayısı ile hattın kapatılması durumu da abandon olma durumudur.
 
-Kara Liste / Black List
+**Kara Liste / Black List**
 
 Kötü Niyetli Çağrılara ait CLID (Caller ID) bilgisinin tutulduğu ve sistem tarafından bu numaralardan gelen çağrıların özel olarak işlenmesini (bazen kapatılmasını) sağlayan sistem tablosudur.
 
-Karma Operatör/Blended Agent / Universal Agent /
+**Karma Operatör/Blended Agent / Universal Agent /**
 
 Çalıştığı vardiyada gelen (Inbound) ve giden(Outbound) çağrıları ele alabilen operatördür.
 
-Karşılama Oranı (Answer Rate)
+**Karşılama Oranı (Answer Rate)**
 
 Operatörler tarafından cevaplanan çağrıların gelen tüm çağrılara oranını gösteren bir çağrı merkezi performans verisidir.
 
-Kısa Çağrı / Short Call
+**Kısa Çağrı / Short Call**
 
 Kuyruğa aktarılan çağrılardan müşteri tarafından beklemeksizin kısa sürede kapatılanlarına denir. Bu süre genel olarak 5 sn civarında olmakla birlikte her çağrı merkezinin bir short call süresi vardır.
 
-Kıyaslama (Benchmark)
+**Kıyaslama (Benchmark)**
 
 Tarihi olarak, iki aygıtın birbirine karşı imkanlarını ölçen standardize edilmiş işleme verilen addır. Kalite terimleri içinde ise kıyaslama; ürünleri, hizmetleri ve süreçleri yeni fikirler edinmek ve iyileştirme fırsatlarını değerlendirmek için gerçekleştirilen karşılaştırmalardır.
 
-Kontrol Çizelgesi (Control Chart)
+**Kontrol Çizelgesi (Control Chart)**
 
 Bir işlemdeki genel ve özel nedenler gibi iki ayrı tip değişkeni ayırt ederek tanımlayan bir kontrol çizelgesidir. Bakınız Common Causes and Special Causes.
 
-Kontrollü Meşguller (Controlled Busies)
+**Kontrollü Meşguller (Controlled Busies)**
 
 Gelen çağrıların programlanmış bir eşiği aşması durumunda, ACD'nin meşgul sinyali üretmesidir.
 
-Konuşma Süresi (Talk Time)
+**Konuşma Süresi (Talk Time)**
 
 Bir temsilcinin görüşme sırasında arayan ile geçirdiği süredir. "Merhaba" ile "güle güle" arasındaki her şeyi içerir.
 
-Koşullu Yönlendirme (Conditional Routing)
+**Koşullu Yönlendirme (Conditional Routing)**
 
 ACD' nin çağrıları o anki duruma bağlı olarak yönlendirebilme yeteneğidir. "Eğer-öyleyse (if-then) programlamaya dayanır. Örneğin, "birinci temsilci grubuna gelen çağrı sayısı 10'u aşarsa ve eğer grup ikide en azından 2 temsilci müsaitse, o zaman çağrıları ikinci gruba yönlendir" gibi.
 
-Kullanıcı Numarası (Login ID)
+**Kullanıcı Numarası (Login ID)**
 
 Müşteri temsilcisinin çağrı merkezi sistemine giriş yapmak için kullandığı numaradır.
 
-Kuyruğa Geri Gönderme / Return To Queue
+**Kuyruğa Geri Gönderme / Return To Queue**
 
 Çağrı kuyruğundan operatöre aktarılan çağrının operatörün insiyatifiyle (cevaplamadan Not Ready tuşuna basarak) veya çağrıyı cevaplamaması üzerine tekrar kuyruğa alınması durumudur.
 
-Kuyruk / Queue / ACD Queue / Pilot
+**Kuyruk / Queue / ACD Queue / Pilot**
 
 Çağrıların operatörlere aktarılmadan önce uğradığı mantıksal çağrı havuzudur.
 
-Kuyruk Dışına Atmak (Flushing Out the Queue)
+**Kuyruk Dışına Atmak (Flushing Out the Queue)**
 
 Bir temsilci grubu için bekleyen çağrıları daha kısa bir kuyruk ve boş temsilcilerin olduğu başka bir gruba yönlendiren sistem dönüşüm eşikleridir.
 
-Kuyrukta Bekleyen Çağrı Adedi / Calls In Queue
+**Kuyrukta Bekleyen Çağrı Adedi / Calls In Queue**
 
 ACD Kuyruğuna gelmiş ama henüz bir ACD operatörüne düşürülmemiş durumda olan ve hatta bekleyen çağrılardır. Local Exchange Carrier (LEC)
 
 Bölgesel bağlantı ve hizmetten sorumlu telefon şirketleridir.
 
-Logged On
+**Logged On**
 
 Temsilcilerin bir çağrı cevaplamaya hazır olsalarda olmasalarda, sisteme giriş yaptıkları durumdur.
 
-Malicious Call
+**Malicious Call**
 
 Çağrı merkezini arayarak, sistemi veya operatörleri taciz eden kişilerin oluşturdukları çağrılardır. Bu tür çağrılar, özellikle ücretsiz telefon numaralarından hizmet veren çağrı merkezlerinde (112, 155, 0800 gibi) daha sık yaşanmaktadır.
 
-Merkez Ofis / Central Office / CO
+**Merkez Ofis / Central Office / CO**
 
 Telefon şirketi şebeke merkezi olarak veya telefon şirketi şebekesi tarafından kullanılan bir tür telefon santrali olarak iki farklı şekilde ifade edilebilir. Lokal merkez ofisi yerel bölgelerden çağrılar alır ve onları yerel olarak veya bir başka taşıyıcıya  yönlendirir. Alıcı tarafında, merkez ofis diğer operatörlerden gelen çağrıları alır.
 
-Metinden Sese / TTS / Text To Speech
+**Metinden Sese / TTS / Text To Speech**
 
 Yazılı metinleri bilgisayar aracılığı ile sanal insan sesine dönüştüren bir çeşit ses sentezleme uygulamasıdır.
 
-Müsait Durum (Available State)
+**Müsait Durum (Available State)**
 
 ACD'ye giriş yapmış, çağrıların gelmesini bekleyen temsilcilerin durumudur.
 
@@ -642,75 +642,75 @@ Müsait Zaman (Available Time)
 
 Temsilci veya temsilci gruplarının belirli bir zaman içinde çağrıların gelmesini bekledikleri toplam süredir.
 
-Müşteri / Customer / Consumer
+**Müşteri / Customer / Consumer**
 
 Müşteri, bir şirketten ürün veya servis satın almış veya satın alması olası olan kişidir. Müşteri, pazardaki kıt kaynaktır. Sınırlıdır ve pazarda rekabet eden tüm şirketler Pazar paylarını arttırmak için daha fazla müşteriye ulaşmaya ve mevcut müşterilere daha fazla ürün satmaya çalışmak gerekmektedir.
 
-Müşteri Geri Kazanma / Customer Recovery
+**Müşteri Geri Kazanma / Customer Recovery**
 
 Belli bir süre alışveriş yapmamış olan bir müşterinin, kaybedildiği veya kaybedilme riski olduğu varsayımı ile, tekrar kazanılmak üzere aranması, gönderi veya promosyon verilmesi gibi çalışmalardır.
 
-Müşteri İlişkileri Yönetimi / CRM / Customer Relationship Management
+**Müşteri İlişkileri Yönetimi / CRM / Customer Relationship Management**
 
 Ürünün veya hizmetin satışından önce başlayıp, satış ile süren ve satış sonrası tüm eylemleri kapsayan karşılıklı, uzun vadeli bir değer ilişkisi yaratmak için müşteriler ile gerçekleştirilen ilişkilerin, teknoloji, insan ve iş süreçlerinin etkin ve koordineli şekilde kullanılarak yürütülmesini ifade eden bir yönetim felsefedir. CRM; satış, pazarlama ve hizmet süreçlerinin müşteri odaklı bir felsefe etrafında yeniden tanımlanmasını gerektirir.
 
-Müşteri Memnuniyeti / CSAT / Customer Satisfaction
+**Müşteri Memnuniyeti / CSAT / Customer Satisfaction**
 
 Firmanın ve/veya markanın müşterisinin iş ile ilgili, duygusal ve psikolojik ihtiyaçlarını karşılayabilmesidir.
 
-Müşteri Sadakati / Customer Loyalty
+**Müşteri Sadakati / Customer Loyalty**
 
 Bir firmanın müşterilerinin, o firmanın ürün ve hizmetlerini kullanmaya devam etme, alternatif ve/veya rekabetçi teklifleri geri çevirme isteğinin derecesidir.
 
-Müşterinin Sesi / VOC / Voice Of Customer
+**Müşterinin Sesi / VOC / Voice Of Customer**
 
 Müşterilerin firmadan beklenti ve tercihlerini ayrıca firma ile ilgili rahatsız oldukları konuları detaylı bir şekilde öğrenebilme adına yapılan uygulamaları içeren bir kavramdır. Çağrı merkezlerinde gelen şikayet ve taleplerden elde edilen veriler, anketler ve ürün alımında yapılan hoş geldin çağrıları ile birlikte alınan bazı bilgiler bu tip uygulamalara örnektir.
 
-Müşteriyi Elde Tutma / Customer Retention
+**Müşteriyi Elde Tutma / Customer Retention**
 
 Firma ile çalışmayı bırakma riski taşıyan ve alternatifleri değerlendirmeye başlayan müşterilerin çeşitli ikna argümanları kullanılarak elde tutulup rakip ürünleri kullanmasının önüne geçmek ve sadakatini sağlamaya çalışmak adına uygulanan bir pazarlama stratejisidir.
 
-Nicel Tahmin (Quantative Forecasting)
+**Nicel Tahmin (Quantative Forecasting)**
 
 Gelecek olayların tahmininde istatistiksel tekniklerin kullanılması. Bütün tahminlerin ana katagorileri zaman serilerini (time series) ve açıklayıcı yöntemleri (explanatory approaches) kapsar. Zaman serileri tekniği gelecek olayları tahmin için geçmiş trendleri kullanır. Açıklayıcı teknikler ise iki ya da daha fazla değişken arasında ki bağlantıyı / ilişkiyi bulmayı hedefler. (Örn: 10 kere çok uzun görüşmeden çıkmış bir kullanıcının müşteriyi bırakmasının tahmin edilmesi buna bir örnektir.)
 
-Odaklı Yönlendirme (Skills - Based Routing Beceri)
+**Odaklı Yönlendirme (Skills - Based Routing Beceri)**
 
 Arayanın özel ihtiyaçlarını, çağrıyı ele alabilecek yeteneğe sahip olan bir temsilciyle o anda buluşturan bir ACD yeterliliğidir.(Örn: Estetik konusunda ustalaşmış bir agenta Estetik ile ilgili danışanların daha çok düşmesi buna bir örnektir.)
 
-Offered Calls
+**Offered Calls**
 
 Santralin giriş noktasından sonra tuşlama sonucuna göre Müşteri Temsilcisi kuyruklarına gelen çağrıların toplamıdır.
 
-Operasyonel Verimlilik
+**Operasyonel Verimlilik**
 
 Müşteri temsilcilerinin normal mesai boyunca gösterdikleri performansın verimidir. Operasyonel verimlilik= (Üretim)/ (Normal Mesai)
 
-Operatör / Müşteri Temsilcisi / Agent / CSR / Customer Service Represantative
+**Operatör / Müşteri Temsilcisi / Agent / CSR / Customer Service Represantative**
 
 Bir çağrı merkezinde, gelen ve giden çağrıları belirtilen iş akışları çerçevesinde ele alan kişilere verilen isimdir.
 
-Ortalama Bekleme Süresi / AWT / Average Waiting Time
+**Ortalama Bekleme Süresi / AWT / Average Waiting Time**
 
 Bir operatörün ACD çağrı almak için ortalama beklediği süredir. Toplam çağrı bekleme süresinin gelen çağrı sayısına bölünmesi ile elde edilebilir.
 
-Ortalama Cevap Verme Süresi / ASA / Average Speed Of Answer / Average Time To Answer
+**Ortalama Cevap Verme Süresi / ASA / Average Speed Of Answer / Average Time To Answer**
 
 Bir ACD kuyruğuna gelen tüm cevaplanmış çağrıların, operatörler tarafından cevaplanmadan önce ortalama ne kadar süre beklediğini gösteren saniye cinsinden bir performans verisidir.
 
-Ortalama Çağrı İşlem Süresi / Ortalama Ele Alma Süresi / AHT / Average Call Handling Time
+**Ortalama Çağrı İşlem Süresi / Ortalama Ele Alma Süresi / AHT / Average Call Handling Time**
 
 Bir çağrının ortalama ne kadar sürdüğünü gösterir. Bu süre; telefonda görüşme, arayan kişiyi bekletme ve çağrı sonrası işlem süreçlerini kapsar. ACHT= ((Talk Time)+ (Hold Time) +(ACW Time ))
 
-Ortalama Çözümleme Süresi / ART / Average Resolution Time
+**Ortalama Çözümleme Süresi / ART / Average Resolution Time**
 
 Çağrı merkezinde temasların geldikleri andan tüm süreçlerin tamamlanarak kapanmaları anına kadar geçen süreyi gün/saat/dakika cinsinden belirten bir performans verisidir.
 
-Ortalama Konuşma Süresi / ATT / Average Talk Time
+**Ortalama Konuşma Süresi / ATT / Average Talk Time**
 
 Belli bir zaman diliminde çağrıda geçirilen toplam sürenin toplam karşılanan/yapılan çağrı adedine bölünmesi ile bulunan ve bir çağrının ortalama görüşme süresini gösteren bir performans verisidir.
 
-Ortalama Temsilci Sayısı (Average Number of Agents)
+**Ortalama Temsilci Sayısı (Average Number of Agents)**
 
 Arayanların, terk etmeden önce sırada beklediği ortalama süre. Hesaplamalar sadece terk eden çağrıları göze alır.
 

@@ -13,7 +13,7 @@ Repo'daki Markdown dosyaları kullanarak ilgili teknolojilere ait komutları bul
 - [:rocket: Django Komutları](django.md)
 - [:bomb: Tmux-ssh ](Tmux-Hakkında.md)
 - [:fire_engine: Ubuntu-Minimal-Tools ](Ubuntu-Minimal-Tools.md)
-- [:email: Sip-Mesajları ](Sip-Messages.md)
+- [:email: Sip-Mesajları ](Sip-Hata-Mesajlari.md)
 
 ## :bulb: Katkıda Bulunma
 

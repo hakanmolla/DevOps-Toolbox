@@ -33,59 +33,59 @@ sistem kurulumunda tanımlanan yere teslim edilmesine denir.)
 
 **ACD Dışı Çağrılar (Non ACD In Calls)**
 
-Genel bir gruptan ziyade sadece bir temsilcinin dahilisine yönlendirilen çağrılardır. Bu çağrılar, kişisel veya, temsilcinin dahili hattını bilen bir müşteriden de olabilir. (Örn: Agent’ın direkt dahili üzerinden aranması)
+* Genel bir gruptan ziyade sadece bir temsilcinin dahilisine yönlendirilen çağrılardır. Bu çağrılar, kişisel veya, temsilcinin dahili hattını bilen bir müşteriden de olabilir. (Örn: Agent’ın direkt dahili üzerinden aranması)
 
 **Açık Bilet (Open Ticket)**
 
-Henüz sonuçlanamamış veya çözümlenememiş müşteri temasıdır / işlemidir. (Örn: Şikayet veya ticket gibi modüllerde kullanılabilir. Açılmış olan kaydın durum analizi yapılır.)
+* Henüz sonuçlanamamış veya çözümlenememiş müşteri temasıdır / işlemidir. (Örn: Şikayet veya ticket gibi modüllerde kullanılabilir. Açılmış olan kaydın durum analizi yapılır.)
 
 **Ağ Kontrol Merkezi (Network Control Center)**
 
-Trafik Kontrol Merkezi de denilir. Ağ çağrı merkezi  ortamında, insanların ve ekipmanların merkezler arasındaki  gerçek zamanlı durumları denetleyen, gerek olduğunda eşiklerin yönlerini değiştiren, baz personel gereksinimlerini  etkileyen olayları koordine eder.
+* Trafik Kontrol Merkezi de denilir. Ağ çağrı merkezi  ortamında, insanların ve ekipmanların merkezler arasındaki  gerçek zamanlı durumları denetleyen, gerek olduğunda eşiklerin yönlerini değiştiren, baz personel gereksinimlerini  etkileyen olayları koordine eder.
 
 **Ağ Taşması (Network Interflow)**
 
-Çok siteli çağrı merkezlerinde merkezler arası daha etkin çağrı dağılımını sağlamayı hedefleyen bir teknolojidir. Ağ devrelerini (T1 devresi gibi) ve ACD yazılımlarını kullanarak, bir merkeze yönlendirilen çağrılar uzak  merkezlerdeki temsilci gruplarına da aynı anda sıralanabilir. (Örn Call by Call Routing and Percent Allocation.)
+* Çok siteli çağrı merkezlerinde merkezler arası daha etkin çağrı dağılımını sağlamayı hedefleyen bir teknolojidir. Ağ devrelerini (T1 devresi gibi) ve ACD yazılımlarını kullanarak, bir merkeze yönlendirilen çağrılar uzak  merkezlerdeki temsilci gruplarına da aynı anda sıralanabilir. (Örn Call by Call Routing and Percent Allocation.)
 
 **Akış (Overflow)**
 
-Bir grup veya merkezden diğerine akan çağrılardır. Intraflow çağrıların temsilciler arası akışı Interflow ise ACD' den diğer merkezlere akışıdır.
+* Bir grup veya merkezden diğerine akan çağrılardır. Intraflow çağrıların temsilciler arası akışı Interflow ise ACD' den diğer merkezlere akışıdır.
 
 **Aktif Dinleme / Active Listening**
 
-Görüşmeciyi(arayan veya aranan) dikkatle dinlemek ve karşı tarafın konuşması esnasında, "evet", "anlıyorum", "hıhı" şeklinde kısa tepkiler vererek onu anladığınızı göstermektir (Örn: Agent’ın görüşme sırasında müşteriye verdiği “evet , anlıyorum , hıhı ” gibi geri dönüşlerdir. Karşı tarafı dinlediğinizi belli ettiğiniz durumdur.)
+* Görüşmeciyi(arayan veya aranan) dikkatle dinlemek ve karşı tarafın konuşması esnasında, "evet", "anlıyorum", "hıhı" şeklinde kısa tepkiler vererek onu anladığınızı göstermektir (Örn: Agent’ın görüşme sırasında müşteriye verdiği “evet , anlıyorum , hıhı ” gibi geri dönüşlerdir. Karşı tarafı dinlediğinizi belli ettiğiniz durumdur.)
 
 **Anahtar Performans Göstergeleri / KPI / Key Performance Indicators**
 
-Organizasyonların, birimlerin, bölümlerin veya çalışanların performans seviyelerini gösteren ve periyodik olarak ölçümlenen, bu ölçümlerin sonucunda gerekli durumlarda aksiyon alınan veriler setidir. (Agentların çalışma raporlarının alınması bu verilere örnektir.Kaç çağrı karşılamış , kaç çağrı kaçırmış gibi bilgiler bu veri içerisinde yer alır.)
+* Organizasyonların, birimlerin, bölümlerin veya çalışanların performans seviyelerini gösteren ve periyodik olarak ölçümlenen, bu ölçümlerin sonucunda gerekli durumlarda aksiyon alınan veriler setidir. (Agentların çalışma raporlarının alınması bu verilere örnektir.Kaç çağrı karşılamış , kaç çağrı kaçırmış gibi bilgiler bu veri içerisinde yer alır.)
 
 **Analog (Analog)**
 
-Telefon iletişiminin dijital olmadığı duruma verilen addır. Sinyaller analogdur. (Örn: İki telli bakır kablo sinyalidir.)
+* Telefon iletişiminin dijital olmadığı duruma verilen addır. Sinyaller analogdur. (Örn: İki telli bakır kablo sinyalidir.)
 
 **Anons (Announcement)**
 
-Arayanlara dinletilmek üzere kayıt edilmiş sözlü mesaja verilen addır. (Örn: blabla’ya hoş geldiniz. Tuşlama yapmak için bekleyiniz. Kuyruklarda  beklenirken gelen reklam anonsları)
+* Arayanlara dinletilmek üzere kayıt edilmiş sözlü mesaja verilen addır. (Örn: blabla’ya hoş geldiniz. Tuşlama yapmak için bekleyiniz. Kuyruklarda  beklenirken gelen reklam anonsları)
 
 **Aranan Numara / Dialed Number / DN**
 
-Arayanın aramayı başlatmak için çevirdiği numaradır.
+* Arayanın aramayı başlatmak için çevirdiği numaradır.
 
 **Arayan Numara / CLID / Caller Line Identification**
 
-Analog, dijital ve çoğu VoIP uygulamalarında arayanın telefon numarasını aranan tarafın telefon cihazına, telefonun çalması esnasında veya bağlantı kurulduğunda, aktaran telefon servis hizmetidir.
+* Analog, dijital ve çoğu VoIP uygulamalarında arayanın telefon numarasını aranan tarafın telefon cihazına, telefonun çalması esnasında veya bağlantı kurulduğunda, aktaran telefon servis hizmetidir.
 
 **Arka Ofis (BO - Backoffice)**
 
-İlk kontakta cevaplanamayan çağrıların işlemlerinin yapıldığı ve müşteriye geri dönüşün gerçekleştirildiği bölümdür. (Örn: Muhasebe , Satış gibi birimlere verilen addır. Çağrı Merkezi dışındaki birimler olarak düşünebiliriz.)
+* İlk kontakta cevaplanamayan çağrıların işlemlerinin yapıldığı ve müşteriye geri dönüşün gerçekleştirildiği bölümdür. (Örn: Muhasebe , Satış gibi birimlere verilen addır. Çağrı Merkezi dışındaki birimler olarak düşünebiliriz.)
 
 **Arrival Rasgele Gelen Çağrı (Random Call)**
 
-Gelen çağrıların rastgele gelmesi. (Gelen çağrının birden fazla kampanya için gelmesi)
+* Gelen çağrıların rastgele gelmesi. (Gelen çağrının birden fazla kampanya için gelmesi)
 
 **Audiotex (Audiotex)**
 
-Arayanların otomatik olarak daha önceden kayıt edilmiş anonslara ulaşabileceği ses işlemcisi imkanı. (Arayana anons ile isminin söylenmesi. ÖRN: Sayın Hakan Bey)
+* Arayanların otomatik olarak daha önceden kayıt edilmiş anonslara ulaşabileceği ses işlemcisi imkanı. (Arayana anons ile isminin söylenmesi. ÖRN: Sayın Hakan Bey)
 
 **Average Time to Abandon (ATA)**
 
@@ -97,47 +97,47 @@ Sisteme eklenen her temsilcinin belirli bir noktadan sonra Hizmet Seviyesinde ya
 
 **Basic Rate Interface (BRI)**
 
-ISDN servisinin iki ana derecesinden biridir. Bir BRI hattı, ses ve veri için iki, sinyalleme için bir kanal sağlar. (genelde 2B + D olarak da ifade edilir.) (İki kanal çağrı almaya yarayan bir hat sonlandırma teknolojisi)
+* ISDN servisinin iki ana derecesinden biridir. Bir BRI hattı, ses ve veri için iki, sinyalleme için bir kanal sağlar. (genelde 2B + D olarak da ifade edilir.) (İki kanal çağrı almaya yarayan bir hat sonlandırma teknolojisi)
 
 **Baş Bilgi Yöneticisi / Chief Information Officer / CIO**
 
-Bir organizasyonun enformasyon sisteminden sorumlu en üst rütbeli yöneticisine verilen tipik bir ünvandır.
+* Bir organizasyonun enformasyon sisteminden sorumlu en üst rütbeli yöneticisine verilen tipik bir ünvandır.
 
 **Baz Çalışan Adedi / Base Staff / Seated Agents**
 
-Belirli bir zaman diliminde servis seviyesi ve cevaplama süresi hedeflerini karşılamak için gerekli olan minimum çalışan adedini gösteren bir değerdir. Bu model tüm operatörlerin vardiya saatlerinde yerlerinde olacağını varsayar. (Örn: Daha önceki günlerde saatlik arama raporlarını çıkararak; personellerin en yoğun saat dilimi belirlenmiş olur. Belirlenen saat dilimine göre bir vardiya sistemi oluşturulur. Bu oluşturulan sisteme Baz Çalışan Adedi denir)
+* Belirli bir zaman diliminde servis seviyesi ve cevaplama süresi hedeflerini karşılamak için gerekli olan minimum çalışan adedini gösteren bir değerdir. Bu model tüm operatörlerin vardiya saatlerinde yerlerinde olacağını varsayar. (Örn: Daha önceki günlerde saatlik arama raporlarını çıkararak; personellerin en yoğun saat dilimi belirlenmiş olur. Belirlenen saat dilimine göre bir vardiya sistemi oluşturulur. Bu oluşturulan sisteme Baz Çalışan Adedi denir)
 
 **Bilgisayar Simülatörü (Computer Simulation)**
 
-İleride karşılaşılabilecek birçok farklı durumun sonucunu tahmin eden bir bilgisayar tekniğidir. Birçok değişkenin olduğu bir durumda simülatör neredeyse sonucu tahmin eden tek makul yoldur. (Sistemden beklenmeyen anlık yoğunluklarda, daha önce sisteme tanımlanmış çağrı yönetim şeklinin uygulanması , kısmi olarak her çağrının bir cevaba ulaşması için yapay zeka mantığında çağrı yönetiminin sağlanmasıdır.)
+* İleride karşılaşılabilecek birçok farklı durumun sonucunu tahmin eden bir bilgisayar tekniğidir. Birçok değişkenin olduğu bir durumda simülatör neredeyse sonucu tahmin eden tek makul yoldur. (Sistemden beklenmeyen anlık yoğunluklarda, daha önce sisteme tanımlanmış çağrı yönetim şeklinin uygulanması , kısmi olarak her çağrının bir cevaba ulaşması için yapay zeka mantığında çağrı yönetiminin sağlanmasıdır.)
 
 **Bilgisayar Telefon Entegrasyonu / CTI / Computer Telephony Integration**
 
-Telefon ve bilgisayar sistemlerinin çagri kontrolü ve veritabanı bazlı işlemler amacıyla birbirleri ile entegre sekilde çalışması esasına dayalı bir teknolojidir. (Click to Call ve Outlook üzerindeki kişilerin sistem üzerinden aranması bir örnektir.)
+* Telefon ve bilgisayar sistemlerinin çagri kontrolü ve veritabanı bazlı işlemler amacıyla birbirleri ile entegre sekilde çalışması esasına dayalı bir teknolojidir. (Click to Call ve Outlook üzerindeki kişilerin sistem üzerinden aranması bir örnektir.)
 
 **Bip Sesi (Beep Tone)**
 
-Bir çağrı geldiğine dair sesli bir bildirimdir. (Zip Tone da denir.) Bip Sesi, duyulabilecek bir uyarı olarak aynı zamanda bir çağrının denetlendiğini de gösterir.
+* Bir çağrı geldiğine dair sesli bir bildirimdir. (Zip Tone da denir.) Bip Sesi, duyulabilecek bir uyarı olarak aynı zamanda bir çağrının denetlendiğini de gösterir.
 
 **Bir Sonraki Uygun Temsilci (Next Available Agent)**
 
-Çağrıları müsait hale gelen bir Temsilciye aktaran bir çağrı dağıtım metodudur. Metot, beceri grupları veya servisleri arasında eşit yük sağlama amacını güder. Kuyruk yoksa, bir sonraki boş temsilci en uzun süredir bekleyen temsilci haline döner.
+* Çağrıları müsait hale gelen bir Temsilciye aktaran bir çağrı dağıtım metodudur. Metot, beceri grupları veya servisleri arasında eşit yük sağlama amacını güder. Kuyruk yoksa, bir sonraki boş temsilci en uzun süredir bekleyen temsilci haline döner.
 
 **Birden Fazla Lisan Bilen (Multilingual Agents)**
 
-Bir çok dilde akıcı konuşan temsilcilere verilen addır.
+* Bir çok dilde akıcı konuşan temsilcilere verilen addır.
 
 **Blockage (Tıkanma)**
 
-Bir sıraya giren arayanların önünün tıkanmasına verilen addır.(Örn: Bankaları aradığımızda agenta ulaşmadan önce duyduğumuz IVR katmanları)
+* Bir sıraya giren arayanların önünün tıkanmasına verilen addır.(Örn: Bankaları aradığımızda agenta ulaşmadan önce duyduğumuz IVR katmanları)
 
 **Boştaki trunklar (Trunks Idle)**
 
-Trunk grubundaki meşgul olmayan trunklardır. (Sisteme tanımlı olan hatların anlık durumunu gösterir.)
+* Trunk grubundaki meşgul olmayan trunklardır. (Sisteme tanımlı olan hatların anlık durumunu gösterir.)
 
 **Bölgesel Alan Şebekesi / Local Area Network / LAN**
 
-Bir binadaki birçok bilgisayarın bilgi alışverişinde bulunmasını sağlayan bağdır. (Örnek: Lan Area Network)
+* Bir binadaki birçok bilgisayarın bilgi alışverişinde bulunmasını sağlayan bağdır. (Örnek: Lan Area Network)
 
 **Centum Çağrı Saniyeleri / Centum Call Seconds / CCS**
 

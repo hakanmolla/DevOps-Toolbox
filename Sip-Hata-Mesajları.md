@@ -22,18 +22,18 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 ## 1xx = Bilgi İçerikli SIP Cevapları
 ---
 
-`100 Trying / Deniyor` – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
-`180 Ringing / Çalıyor' – Hedef Kullanıcı Temsilcisi DAVET mesajını almış ve aramanın kullanıcısına uyarı vermektedir.
-`181 Call Is Being Forwarded  / Arama' Yönlendiriliyor` – İsteğe bağlıdır, aramanın yönlendirildiğini belirtmek için Sunucu gönderir.
-`182 Queued / Sıraya Alındı` – Hedef geçici olarak kullanılamıyor; sunucu, hedef kullanılana kadar aramayı sıraya aldı.
-`183 Session Progress / Oturum Devam Ediyor` – Bu cevap halen kurulan bir arama için ekstra bilgi göndermede kullanılabilir.
-`199 Early Dialog Terminated / Erken Diyalog Sonlandı` – Erken diyaloğun sonlandığını belirtmek için Kullanıcı Temsilcisi Sunucusu gönderir.
+* `100 Trying / Deniyor` – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
+* `180 Ringing / Çalıyor' – Hedef Kullanıcı Temsilcisi DAVET mesajını almış ve aramanın kullanıcısına uyarı vermektedir.
+* `181 Call Is Being Forwarded  / Arama' Yönlendiriliyor` – İsteğe bağlıdır, aramanın yönlendirildiğini belirtmek için Sunucu gönderir.
+* `182 Queued / Sıraya Alındı` – Hedef geçici olarak kullanılamıyor; sunucu, hedef kullanılana kadar aramayı sıraya aldı.
+* `183 Session Progress / Oturum Devam Ediyor` – Bu cevap halen kurulan bir arama için ekstra bilgi göndermede kullanılabilir.
+* `199 Early Dialog Terminated / Erken Diyalog Sonlandı` – Erken diyaloğun sonlandığını belirtmek için Kullanıcı Temsilcisi Sunucusu gönderir.
 ---
 ## 2xx = Başarı cevapları :
 
-`200` Tamam – Talebin başarılı olduğunu gösterir.
-`202` Kabul edildi – Temelde başvurular için kullanılan talebin işleme alındığını gösterir.
-`204` Bildirim Yok – Talebin başarılı olduğunu fakat cevap alınmadığını gösterir.
+* `200` Tamam – Talebin başarılı olduğunu gösterir.
+* `202` Kabul edildi – Temelde başvurular için kullanılan talebin işleme alındığını gösterir.
+* `204` Bildirim Yok – Talebin başarılı olduğunu fakat cevap alınmadığını gösterir.
 ---
 ## 3xx = Yeni adrese yönlendirme cevapları :
 

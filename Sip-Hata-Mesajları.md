@@ -4,8 +4,8 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 ---
 ## En Çok Kullanılan SIP Mesajları ve Anlamları
 
-**REGISTER  :**	To başlığı alanında listelenen URI’yi bir SIP sunucusuna kaydetmek ve Contact başlığı alanında verilen ağ adresiyle ilişkilendirmek içindir.
-**INVITE    :**	Arama yapmak için bir iletişim başlatır. İstek bir kullanıcı istemcisi (ör. IP telefon) tarafından bir SIP sunucusuna gönderilir. Hali hazırda kurulmuş bir iletişim sırasında gönderildiğinde (RE-INVITE), oturumu değiştirir (ör. çağrıyı beklemeye alma).
+* **REGISTER  :**	To başlığı alanında listelenen URI’yi bir SIP sunucusuna kaydetmek ve Contact başlığı alanında verilen ağ adresiyle ilişkilendirmek içindir.
+* **INVITE    :**	Arama yapmak için bir iletişim başlatır. İstek bir kullanıcı istemcisi (ör. IP telefon) tarafından bir SIP sunucusuna gönderilir. Hali hazırda kurulmuş bir iletişim sırasında gönderildiğinde (RE-INVITE), oturumu değiştirir (ör. çağrıyı beklemeye alma).
 **ACK       :**	Bir INVITE isteğine son bir yanıt aldığını doğrulamak için kullanılır.
 **BYE       :**	Bir iletişimin sonlandırıldığını bildirir ve çağrıyı bitirir.
 **CANCEL    :**	Bekleyen tüm istekleri iptal eder. Hala çalan bir çağrıyı cevaplamadan önce, sonlandırmak için kullanılır.

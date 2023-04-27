@@ -19,7 +19,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * **INFO      :**	Oturum durumunu değiştirmeyen oturum ortası bilgileri göndermek için kullanılır. Bu yöntem genellikle DTMF rölesi için kullanılır.
 * **OPTIONS   :**	Bir uç noktanın yeteneklerini sorgular. Genellikle NAT ve keepalive için kullanılır.
 
-## 1xx = Bilgi İçerikli SIP Cevapları
+## 1xx = Informational SIP responses / Bilgi İçerikli SIP Cevapları
 ---
 
 * `100 Trying / Deniyor` – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
@@ -29,13 +29,13 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `183 Session Progress / Oturum Devam Ediyor` – Bu cevap halen kurulan bir arama için ekstra bilgi göndermede kullanılabilir.
 * `199 Early Dialog Terminated / Erken Diyalog Sonlandı` – Erken diyaloğun sonlandığını belirtmek için Kullanıcı Temsilcisi Sunucusu gönderir.
 
-## 2xx = Başarı cevapları :
+## 2xx = Success responses / Başarı cevapları :
 ---
 * `200 Ok / Tamam` – Talebin başarılı olduğunu gösterir.
 * `202 No Notification / Kabul edildi` – Temelde başvurular için kullanılan talebin işleme alındığını gösterir.
 * `204 No Notification / Bildirim Yok` – Talebin başarılı olduğunu fakat cevap alınmadığını gösterir.
 
-## 3xx = Yeni adrese yönlendirme cevapları :
+## 3xx = Redirection responses / Yeni adrese yönlendirme cevapları :
 ---
 * `300 Multiple Choices / Çoklu Seçenekler` – Kullanıcının/müşterinin seçeceği çeşitli seçeneklerden birine çözümlenen adres.
 * `301 Moved Permanently / Kalıcı Olarak Taşındı` – Orjinal Talep URL’si geçersizdir, yeni adres İletişim başlığında sunulmaktadır.

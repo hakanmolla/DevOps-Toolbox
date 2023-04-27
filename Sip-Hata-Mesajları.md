@@ -43,33 +43,33 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `305 Use Proxy / Proxy Kullanın` – İletişim alanı, istenen yere ulaşmada kullanılması gereken bir proxy detayı verir.
 * `380 Alternative Service / Alternatif Hizmet` – Arama başarısız oldu fakat alternatifler mesaj gövdesinde sunulmaktadır.
 
-## 4xx = Talebin yerine getirilememesi:
+## 4xx = Request failures / Talebin yerine getirilememesi:
 ---
-* `400 / Geçersiz Talep` – Talep, hatalı söz dizimi nedeniyle anlaşılamadı.
-* `401 / Yetkisiz Kullanım` – Talep, kullanıcı yetkisi gerektirir. Bu cevap UAS’ler ve kaydolanlar tarafından kullanılır.
-* `402 / Ödeme Gerekli` – (Gelecekte kullanılmak üzere ayrılmıştır).
-* `403 / Yasaklı` – Sunucu talebi anladı fakat yerine getirmeyi reddediyor.
-* `404 / Bulunamadı` – Sunucu, kullanıcının (Kullanıcı bulunamadı) bulunmadığı tanımlayıcı bilgisine sahiptir.
-* `405 / İzin Verilmeyen Yöntem` – Talep Satırında belirtilen yöntem anlaşıldı fakat izin verilmiyor.
-* `406 / Kabul Edilemez` – Kaynak sadece Kabul edilemez içeriğe sahip cevaptlar üretebilmektedir.
-* `407 / Proxy Kimlik Doğrulaması Gerekli` – Talep, kullanıcı kimlik bilgilerinin doğrulanmasını gerektiriyor.
-* `408` / Talep Zaman Aşımı` – Kullanıcı gerekli süre içerisinde bulunamadı.
-* `409` / Uyumsuzluk` – Kullanıcı zaten kayıtlıdır (kullanım dışı).
-* `410 / Gitmiş` – Bir zamanlar var olan bu kullanıcı artık burada yok.
-* `411 / Uzunluk Gerekli` – Sunucu, geçerli bir içerik uzunluğu olmayan talebi kabul etmez (kullanım dışı).
-* `412 / Koşullu Talep Başarısız Oldu` – Belirtilen ön koşul yerine getirilmedi.
-* `413 / Talep Metni Çok Fazla` – Talep gövde metni çok fazla.
-* `414 / Talep URL’si Çok Uzun` – Sunucu talebi yerine getirmeyi reddediyor, Talep URL’si sunucunun yorumlayabileceğinden uzun.
-* `415 / Desteklenmeyen Medya Tipi` – Talep gövde metni desteklenmeyen bir formatta.
-* `416 / Desteklenmeyen URL Düzeni` – Talep URL’si sunucu tarafından tanınmıyor.
-* `417 / Bilinmeyen Kaynak Önceliği` – Bir kaynak önceliği seçenek etiketi vardı fakat Kaynak Önceliği başlığı yoktu.
-* `420` / Geçersiz Uzantı` – Geçersiz SIP Protokol Uzantısı kullanıldı fakat sunucu tarafından anlaşılmadı.
-* `421` / Uzantı Gerekli` – Sunucu, Desteklenenler başlığında listelenmeyen özel bir uzantı gerektiriyor.
-* `422` / Oturum Aralığı Çok Az` – Talep, minimum sürenin altında bir Oturum Bitiş Tarihi başlık alanı içeriyor.
-* `423` / Ara Çok Kısa` – Kaynağın sona erme süresi çok kısa.
-* `424 / Kötü Kullanım Bilgileri` – Talebin konum içeriği hatalıydı veya başarısız oldu.
-* `428 / Kullanım Kimliği Başlığı` – Sunucu politikası bir Kimlik başlığı gerektiriyor fakat bir başlık sunulmadı.
-* `429 / Referans Veren Kimliği Sağlayın` – Sunucu, talep üzerine geçerli bir Referansı Veren token’ı almadı.
+* `400 Bad Request / Geçersiz Talep` – Talep, hatalı söz dizimi nedeniyle anlaşılamadı.
+* `401 Unauthorized / Yetkisiz Kullanım` – Talep, kullanıcı yetkisi gerektirir. Bu cevap UAS’ler ve kaydolanlar tarafından kullanılır.
+* `402 Payment Required  / Ödeme Gerekli` – (Gelecekte kullanılmak üzere ayrılmıştır).
+* `403 Forbidden / Yasaklı` – Sunucu talebi anladı fakat yerine getirmeyi reddediyor.
+* `404 Not Found / Bulunamadı` – Sunucu, kullanıcının (Kullanıcı bulunamadı) bulunmadığı tanımlayıcı bilgisine sahiptir.
+* `405 Method Not Allowed / İzin Verilmeyen Yöntem` – Talep Satırında belirtilen yöntem anlaşıldı fakat izin verilmiyor.
+* `406 Not Acceptable / Kabul Edilemez` – Kaynak sadece Kabul edilemez içeriğe sahip cevaptlar üretebilmektedir.
+* `407 Proxy Authentication Required / Proxy Kimlik Doğrulaması Gerekli` – Talep, kullanıcı kimlik bilgilerinin doğrulanmasını gerektiriyor.
+* `408` Request Timeout / Talep Zaman Aşımı` – Kullanıcı gerekli süre içerisinde bulunamadı.
+* `409` Conflict / Uyumsuzluk` – Kullanıcı zaten kayıtlıdır (kullanım dışı).
+* `410 Gone / Gitmiş` – Bir zamanlar var olan bu kullanıcı artık burada yok.
+* `411 Length Required / Uzunluk Gerekli` – Sunucu, geçerli bir içerik uzunluğu olmayan talebi kabul etmez (kullanım dışı).
+* `412 Conditional Request Failed  / Koşullu Talep Başarısız Oldu` – Belirtilen ön koşul yerine getirilmedi.
+* `413 Request Entity Too Large / Talep Metni Çok Fazla` – Talep gövde metni çok fazla.
+* `414 Request URI Too Long / Talep URL’si Çok Uzun` – Sunucu talebi yerine getirmeyi reddediyor, Talep URL’si sunucunun yorumlayabileceğinden uzun.
+* `415 Unsupported Media Type / Desteklenmeyen Medya Tipi` – Talep gövde metni desteklenmeyen bir formatta.
+* `416 Unsupported URI Scheme / Desteklenmeyen URL Düzeni` – Talep URL’si sunucu tarafından tanınmıyor.
+* `417 Uknown Resource-Priority / Bilinmeyen Kaynak Önceliği` – Bir kaynak önceliği seçenek etiketi vardı fakat Kaynak Önceliği başlığı yoktu.
+* `420` Bad Extension / Geçersiz Uzantı` – Geçersiz SIP Protokol Uzantısı kullanıldı fakat sunucu tarafından anlaşılmadı.
+* `421` Extension Required / Uzantı Gerekli` – Sunucu, Desteklenenler başlığında listelenmeyen özel bir uzantı gerektiriyor.
+* `422` Session Interval Too Small / Oturum Aralığı Çok Az` – Talep, minimum sürenin altında bir Oturum Bitiş Tarihi başlık alanı içeriyor.
+* `423`Interval Too Brief / Ara Çok Kısa` – Kaynağın sona erme süresi çok kısa.
+* `424 Bad Location Information/ Kötü Kullanım Bilgileri` – Talebin konum içeriği hatalıydı veya başarısız oldu.
+* `428 Use Identity Header / Kullanım Kimliği Başlığı` – Sunucu politikası bir Kimlik başlığı gerektiriyor fakat bir başlık sunulmadı.
+* `429 Provide Referrer Identity  / Referans Veren Kimliği Sağlayın` – Sunucu, talep üzerine geçerli bir Referansı Veren token’ı almadı.
 * `430 / Akış Başarısız Oldu` – Bir kullanıcı temsilcisine özel akış başarısız oldu fakat diğer akışlar başarılı olabilir.
 * `433 / Anonimliğe İzin Verilmez` – Talep reddedildi çünkü anonimdi.
 * `436 / Geçersiz Kimlik Bilgileri` – Talebin bir Kimlik Bilgileri başlığı vardır ve içindeki URL düzeninin referansı verilemez.

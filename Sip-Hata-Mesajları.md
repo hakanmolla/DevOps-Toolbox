@@ -23,7 +23,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 ---
 
 * `100 Trying / Deniyor` – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
-* `180 Ringing / Çalıyor' – Hedef Kullanıcı Temsilcisi DAVET mesajını almış ve aramanın kullanıcısına uyarı vermektedir.
+* `180 Ringing / Çalıyor` – Hedef Kullanıcı Temsilcisi DAVET mesajını almış ve aramanın kullanıcısına uyarı vermektedir.
 * `181 Call Is Being Forwarded  / Arama' Yönlendiriliyor` – İsteğe bağlıdır, aramanın yönlendirildiğini belirtmek için Sunucu gönderir.
 * `182 Queued / Sıraya Alındı` – Hedef geçici olarak kullanılamıyor; sunucu, hedef kullanılana kadar aramayı sıraya aldı.
 * `183 Session Progress / Oturum Devam Ediyor` – Bu cevap halen kurulan bir arama için ekstra bilgi göndermede kullanılabilir.

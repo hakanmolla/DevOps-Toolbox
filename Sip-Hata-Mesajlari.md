@@ -1,9 +1,9 @@
 ## Sip Hata Mesajları
----
-Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşağıdaki gibidir.
+
+* Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşağıdaki gibidir.
 
 ## En Çok Kullanılan SIP Mesajları ve Anlamları
----
+
 * **REGISTER  :**	To başlığı alanında listelenen URI’yi bir SIP sunucusuna kaydetmek ve Contact başlığı alanında verilen ağ adresiyle ilişkilendirmek içindir.
 * **INVITE    :**	Arama yapmak için bir iletişim başlatır. İstek bir kullanıcı istemcisi (ör. IP telefon) tarafından bir SIP sunucusuna gönderilir. Hali hazırda kurulmuş bir iletişim sırasında gönderildiğinde (RE-INVITE), oturumu değiştirir (ör. çağrıyı beklemeye alma).
 * **ACK       :**	Bir INVITE isteğine son bir yanıt aldığını doğrulamak için kullanılır.
@@ -18,9 +18,8 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * **MESSAGE   :**	Kısa mesaj gönderir. Anlık mesajlaşma uygulamalarında kullanılır.
 * **INFO      :**	Oturum durumunu değiştirmeyen oturum ortası bilgileri göndermek için kullanılır. Bu yöntem genellikle DTMF rölesi için kullanılır.
 * **OPTIONS   :**	Bir uç noktanın yeteneklerini sorgular. Genellikle NAT ve keepalive için kullanılır.
-<hr>
+
 ## 1xx = Informational SIP responses / Bilgi İçerikli SIP Cevapları
----
 
 * `100 Trying / Deniyor` – Gelişmiş arama yapılmaktadır böylece çatal oluşturan bir proxy 100 Deniyor cevabı göndermelidir.
 * `180 Ringing / Çalıyor` – Hedef Kullanıcı Temsilcisi DAVET mesajını almış ve aramanın kullanıcısına uyarı vermektedir.
@@ -30,13 +29,13 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `199 Early Dialog Terminated / Erken Diyalog Sonlandı` – Erken diyaloğun sonlandığını belirtmek için Kullanıcı Temsilcisi Sunucusu gönderir.
 
 ## 2xx = Success responses / Başarı cevapları :
----
+
 * `200 Ok / Tamam` – Talebin başarılı olduğunu gösterir.
 * `202 No Notification / Kabul edildi` – Temelde başvurular için kullanılan talebin işleme alındığını gösterir.
 * `204 No Notification / Bildirim Yok` – Talebin başarılı olduğunu fakat cevap alınmadığını gösterir.
 
 ## 3xx = Redirection responses / Yeni adrese yönlendirme cevapları :
----
+
 * `300 Multiple Choices / Çoklu Seçenekler` – Kullanıcının/müşterinin seçeceği çeşitli seçeneklerden birine çözümlenen adres.
 * `301 Moved Permanently / Kalıcı Olarak Taşındı` – Orjinal Talep URL’si geçersizdir, yeni adres İletişim başlığında sunulmaktadır.
 * `302 Moved Temporarily / Geçici Olarak Taşındı` – Müşteri, İletişim alanındaki adreste denemelidir.
@@ -44,7 +43,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `380 Alternative Service / Alternatif Hizmet` – Arama başarısız oldu fakat alternatifler mesaj gövdesinde sunulmaktadır.
 
 ## 4xx = Request failures / Talebin yerine getirilememesi:
----
+
 * `400 Bad Request / Geçersiz Talep` – Talep, hatalı söz dizimi nedeniyle anlaşılamadı.
 * `401 Unauthorized / Yetkisiz Kullanım` – Talep, kullanıcı yetkisi gerektirir. Bu cevap UAS’ler ve kaydolanlar tarafından kullanılır.
 * `402 Payment Required  / Ödeme Gerekli` – (Gelecekte kullanılmak üzere ayrılmıştır).
@@ -94,7 +93,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `494 Security Agreement Required / Güvenlik Anlaşması Gerekli` – Sunucu, müzakere edilmiş bir güvenlik mekanizması gerektiren bir talep aldı.
 
 ## 5xx = Server errors / Sunucu hataları :
----
+
 * `500 Server Internal Error / Dahili Sunucu Hatası` – Bazı beklenmeyen koşullar nedeniyle sunucu talebi yerine getiremedi.
 * `501 Not Implemented / Uygulanmadı` – SIP talep yöntemi burada uygulanmaz.
 * `502 Bad Gateway / Geçersiz Ağ Geçidi` – Sunucu bir talebi yerine getirmeye çalışırken, alt sistemdeki bir sunucudan geçersiz bir cevap aldı.
@@ -106,7 +105,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `580 Precondition Failure / Ön Koşul Geçersizliği` – Sunucu, teklifte belirtilen bazı sınırlamaları karşılayamıyor veya karşılamak istemiyor.
 
 ## 6xx = Global failures / Global olarak yerine getirilemeyenler:
----
+
 * `600 Busy Everywhere / Her Yer Meşgul` – Tüm olası hedefler meşguldür.
 * `603 Decline / Reddedilme` – Hedef, aramaya katılamıyor veya katılmak istemiyor; alternatif hedef bulunmuyor.
 * `604 Does Not Exist Anywhere / Hiçbir Yerde Bulunmuyor` – Talep edilen kullanıcının hiçbir yerde bulunmadığına dair sunucunun yetkisel bilgisi mevcuttur.

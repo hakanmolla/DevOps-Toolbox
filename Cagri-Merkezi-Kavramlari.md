@@ -55,7 +55,7 @@ Bir grup veya merkezden diğerine akan çağrılardır. Intraflow çağrıların
 
 Görüşmeciyi(arayan veya aranan) dikkatle dinlemek ve karşı tarafın konuşması esnasında, "evet", "anlıyorum", "hıhı" şeklinde kısa tepkiler vererek onu anladığınızı göstermektir (Örn: Agent’ın görüşme sırasında müşteriye verdiği “evet , anlıyorum , hıhı ” gibi geri dönüşlerdir. Karşı tarafı dinlediğinizi belli ettiğiniz durumdur.)
 
-Anahtar Performans Göstergeleri / KPI / Key Performance Indicators
+**Anahtar Performans Göstergeleri / KPI / Key Performance Indicators**
 
 Organizasyonların, birimlerin, bölümlerin veya çalışanların performans seviyelerini gösteren ve periyodik olarak ölçümlenen, bu ölçümlerin sonucunda gerekli durumlarda aksiyon alınan veriler setidir. (Agentların çalışma raporlarının alınması bu verilere örnektir.Kaç çağrı karşılamış , kaç çağrı kaçırmış gibi bilgiler bu veri içerisinde yer alır.)
 
@@ -225,10 +225,11 @@ Operatörün çağrı sonrasında yeni bir çağrı almadan veri girişi, formla
 
 3 şekilde çalışır;
 
-Otomatik : Çağrı kapandığında otomatik olarak ACW durumuna alır. Daha önce tanımlanan süre boyunca ACW durumunda kalır. Süre bitiminde otomatik olarak ACW durumundan çıkar.
-Yarı Otomatik : Çağrı kapandığında otomatik olarak ACW durumuna alır. Agent işlemi bitirdikten sonra manuel olarak ACW durumundan çıkar.
-Manuel : Agent ACW durumuna kendi alır. İşlemi bittiğinde kendi ACW durumundan çıkar.
-Çağrı Yönlendirme ile Arama (Call By Call Routing)
+* Otomatik : Çağrı kapandığında otomatik olarak ACW durumuna alır. Daha önce tanımlanan süre boyunca ACW durumunda kalır. Süre bitiminde otomatik olarak ACW durumundan çıkar.
+* Yarı Otomatik : Çağrı kapandığında otomatik olarak ACW durumuna alır. Agent işlemi bitirdikten sonra manuel olarak ACW durumundan çıkar.
+* Manuel : Agent ACW durumuna kendi alır. İşlemi bittiğinde kendi ACW durumundan çıkar.
+
+**Çağrı Yönlendirme ile Arama (Call By Call Routing)**
 
 Gerçek zamandaki duruma göre, her bir çağrıyı en uygun yöne yönlendiren yöntemdir.
 
@@ -252,7 +253,7 @@ Müşteriye genel satın alma eğilimini analiz ederek birbiriyle ilişkili ür�
 
 Bir operatörün diğer bir operatörün çağrı karşılama ve ele alma şeklini izlemesi ve gelişimine katkıda bulunmak amacı ile yorum yapmasıdır.
 
-Dahili Cevaplama Süresi (Internal Response Time)
+**Dahili Cevaplama Süresi (Internal Response Time)**
 
 Diğer temsilci grupları destekleyen bir temsilci grubunun geldiklerinde cevaplamak zorunda olmadıkları temaslara  verdikleri yanıt için harcanan süre. (örneğin, e-mail) Bakınız Response Time ve Service Level.
 
@@ -347,10 +348,7 @@ En uzun boş kalan temsilciye çağrı dağıtma metodudur. Bir kuyruğun var ol
 **En Yoğun Saat / Peak Hour / Rush Hour**
 
 Genellikle bir gün veya belli günler için yapılan ölçümlerde elde edilen ve çağrıların en yoğun geldiği saatleri gösteren zaman dilimidir.
-
-Erlang
-
-Bir saatlik bir zaman içinde bir saatlik telefon trafiğidir. Örneğin, devreler 1 saat içinde 120 dakikalık trafik taşırsa, bu 2 Erlang'dır.
+Erlang Bir saatlik bir zaman içinde bir saatlik telefon trafiğidir. Örneğin, devreler 1 saat içinde 120 dakikalık trafik taşırsa, bu 2 Erlang'dır.
 
 **Eskalasyon / Escalation**
 
@@ -611,7 +609,6 @@ Bir temsilci grubu için bekleyen çağrıları daha kısa bir kuyruk ve boş te
 **Kuyrukta Bekleyen Çağrı Adedi / Calls In Queue**
 
 ACD Kuyruğuna gelmiş ama henüz bir ACD operatörüne düşürülmemiş durumda olan ve hatta bekleyen çağrılardır. Local Exchange Carrier (LEC)
-
 Bölgesel bağlantı ve hizmetten sorumlu telefon şirketleridir.
 
 **Logged On**
@@ -933,10 +930,7 @@ Meşgul sinyali alınca tekrar deneyen arayandır.
 **Tekrarlayıcı Sıralar (Retrial Tables)**
 
 Bazen trunkların ve sistem kaynaklarının hesaplanmasında kullanılır. Bazı arayanların meşgul sinyali alırlarsa çağrı merkezine ek girişim yapacaklarını varsayar.
-
-Telecommuting
-
-Bir organizasyonun binasının içinde çalışmaktansa telekomünikasyonu kullanarak evden veya diğer yerlerden çalışmaktır.
+Telecommuting Bir organizasyonun binasının içinde çalışmaktansa telekomünikasyonu kullanarak evden veya diğer yerlerden çalışmaktır.
 
 **Telefon hattı (Trunk)**
 
@@ -1057,7 +1051,6 @@ Zarf stratejisi operatörlerin çağrı karşılamanın yanında eğer servis ka
 Gelen çağrı sayısının kısa bir süre içinde tavan yapması aniden artmasıdır. Gelişigüzel gelen çağrı akışı dışındaki trafiktir.
 
 **Zirve Dışı (Off - Peak)**
-
  
 Çağrı merkezlerinin en yoğun olduğu zamanların dışında kalan zaman dilimidir. Telekomunikasyon şirketlerinin genelde düşük tarife oranı sağladığı zaman dilimlerini de açıklamak için kullanılan bir terimdir.
 

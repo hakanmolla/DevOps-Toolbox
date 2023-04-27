@@ -45,69 +45,69 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 
 ## 4xx = Talebin yerine getirilememesi:
 ---
-* `400 /Geçersiz Talep` – Talep, hatalı söz dizimi nedeniyle anlaşılamadı.
-* `401 /Yetkisiz Kullanım` – Talep, kullanıcı yetkisi gerektirir. Bu cevap UAS’ler ve kaydolanlar tarafından kullanılır.
-* `402 /Ödeme Gerekli` – (Gelecekte kullanılmak üzere ayrılmıştır).
-* `403 /Yasaklı` – Sunucu talebi anladı fakat yerine getirmeyi reddediyor.
-* `404 /Bulunamadı` – Sunucu, kullanıcının (Kullanıcı bulunamadı) bulunmadığı tanımlayıcı bilgisine sahiptir.
-* `405 /İzin Verilmeyen Yöntem` – Talep Satırında belirtilen yöntem anlaşıldı fakat izin verilmiyor.
-* `406 /Kabul Edilemez` – Kaynak sadece Kabul edilemez içeriğe sahip cevaptlar üretebilmektedir.
-* `407 /Proxy Kimlik Doğrulaması Gerekli – Talep, kullanıcı kimlik bilgilerinin doğrulanmasını gerektiriyor.
-* `408` /Talep Zaman Aşımı` – Kullanıcı gerekli süre içerisinde bulunamadı.
-* `409` /Uyumsuzluk` – Kullanıcı zaten kayıtlıdır (kullanım dışı).
-* `410 /Gitmiş` – Bir zamanlar var olan bu kullanıcı artık burada yok.
-* `411 /Uzunluk Gerekli` – Sunucu, geçerli bir içerik uzunluğu olmayan talebi kabul etmez (kullanım dışı).
-* `412 /Koşullu Talep Başarısız Oldu` – Belirtilen ön koşul yerine getirilmedi.
-* `413 /Talep Metni Çok Fazla` – Talep gövde metni çok fazla.
-* `414 /Talep URL’si Çok Uzun` – Sunucu talebi yerine getirmeyi reddediyor, Talep URL’si sunucunun yorumlayabileceğinden uzun.
-* `415 /Desteklenmeyen Medya Tipi` – Talep gövde metni desteklenmeyen bir formatta.
-* `416 /Desteklenmeyen URL Düzeni` – Talep URL’si sunucu tarafından tanınmıyor.
-* `417 /Bilinmeyen Kaynak Önceliği` – Bir kaynak önceliği seçenek etiketi vardı fakat Kaynak Önceliği başlığı yoktu.
-* `420` /Geçersiz Uzantı` – Geçersiz SIP Protokol Uzantısı kullanıldı fakat sunucu tarafından anlaşılmadı.
-* `421` /Uzantı Gerekli` – Sunucu, Desteklenenler başlığında listelenmeyen özel bir uzantı gerektiriyor.
-* `422` /Oturum Aralığı Çok Az` – Talep, minimum sürenin altında bir Oturum Bitiş Tarihi başlık alanı içeriyor.
-* `423` /Ara Çok Kısa` – Kaynağın sona erme süresi çok kısa.
-* `424 /Kötü Kullanım Bilgileri` – Talebin konum içeriği hatalıydı veya başarısız oldu.
-* `428 /Kullanım Kimliği Başlığı` – Sunucu politikası bir Kimlik başlığı gerektiriyor fakat bir başlık sunulmadı.
-* `429 /Referans Veren Kimliği Sağlayın` – Sunucu, talep üzerine geçerli bir Referansı Veren token’ı almadı.
-* `430 /Akış Başarısız Oldu` – Bir kullanıcı temsilcisine özel akış başarısız oldu fakat diğer akışlar başarılı olabilir.
-* `433 /Anonimliğe İzin Verilmez` – Talep reddedildi çünkü anonimdi.
-* `436 /Geçersiz Kimlik Bilgileri` – Talebin bir Kimlik Bilgileri başlığı vardır ve içindeki URL düzeninin referansı verilemez.
-* `437 /Desteklenmeyen Sertifika` – Sunucu, talebi imzalayan alan için sertifikanın geçerliliğini doğrulayamadı.
-* `438 /Geçersiz Kimlik Başlığı` – Sunucu bir talebi imzalamada kullanılan geçerli bir sertifika aldı ancak imzayı doğrulayamadı.
-* `439 /İlk Atlamada Giden Desteği Yok – İlk giden proxy, “giden” özelliğini desteklemiyor.
-* `440 /Maksimum Genişlik Aşıldı` – Bir SIP proxy, cevap kavramının istenen bir parallel çatal yerine getirmek için yeterli Maksimum Genişliğe sahip olduğunu belirlediyse ve bu proxy seri çatallamayla telafi etmede isteksizse ya da bunu başaramıyorsa veya bir yeniden yönlendirme gönderiyorsa, bu proxy bir 440 cevabı vermelidir. 440 cevabı alan bir müşteri, talebinin tüm olası yerlere ulaşmadığını anlayabilir.
-* `469 /Geçersiz Bilgi Paketi` – Bir SIP UA, UA’nın alım isteği belirtmediği bir Bilgi Paketine bağlı bir BİLGİ talebi alırsa; UA, UA’nın BİLGİ taleplerini almak istediği Bilgi Talepleri bulunan bir Recv bilgileri başlığı içeren bir 469 cevabı GÖNDERMELİDİR.
-* `470 /Onay Gerekli` – Talep kaynağı, böyle bir talebi yerine getirmek için alıcının iznine sahip değildi.
-* `480 /Geçici Olarak Ulaşılamıyor` – Aranan kişiye şu anda ulaşılamıyor.
-* `481 /Arama/İşlem Mevcut Değil` – Sunucu, herhangi bir diyalog veya işlemle eşleşen bir talep almadı.
-* `482 /Döngü Tespit Edildi` – Sunucu bir döngü tespit etti.
-* `483 /Çok Fazla Atlama` – Maksimum İletme başlığı ‘0’ değerine ulaştı.
-* `484 /Eksik Adres` – Talep URL’si eksik.
-* `485 /Belirsiz` – Talep URL’si belirsiz.
-* `486 /Burası Meşgul` – Aranan kişi meşgul.
-* `487 /Talep Sona Erdi` – Talep sonlandırıldı veya iptal edildi.
-* `488 /Burada Kabul Edilmez` – Talep URL’si oturum tanımının bazı yönleri kabul edilmez.
-* `491 /Talep Beklemede` – Sunucuda aynı diyalogdan birkaç bekleyen talep var.
-* `493 /Deşifre Edilemiyor` – Deşifre Edilemiyor Talebi, alıcının deşifre edemediği şifrelenmiş bir MIME gövde metni içerir.
-* `494 /Güvenlik Anlaşması Gerekli` – Sunucu, müzakere edilmiş bir güvenlik mekanizması gerektiren bir talep aldı.
+* `400 / Geçersiz Talep` – Talep, hatalı söz dizimi nedeniyle anlaşılamadı.
+* `401 / Yetkisiz Kullanım` – Talep, kullanıcı yetkisi gerektirir. Bu cevap UAS’ler ve kaydolanlar tarafından kullanılır.
+* `402 / Ödeme Gerekli` – (Gelecekte kullanılmak üzere ayrılmıştır).
+* `403 / Yasaklı` – Sunucu talebi anladı fakat yerine getirmeyi reddediyor.
+* `404 / Bulunamadı` – Sunucu, kullanıcının (Kullanıcı bulunamadı) bulunmadığı tanımlayıcı bilgisine sahiptir.
+* `405 / İzin Verilmeyen Yöntem` – Talep Satırında belirtilen yöntem anlaşıldı fakat izin verilmiyor.
+* `406 / Kabul Edilemez` – Kaynak sadece Kabul edilemez içeriğe sahip cevaptlar üretebilmektedir.
+* `407 / Proxy Kimlik Doğrulaması Gerekli` – Talep, kullanıcı kimlik bilgilerinin doğrulanmasını gerektiriyor.
+* `408` / Talep Zaman Aşımı` – Kullanıcı gerekli süre içerisinde bulunamadı.
+* `409` / Uyumsuzluk` – Kullanıcı zaten kayıtlıdır (kullanım dışı).
+* `410 / Gitmiş` – Bir zamanlar var olan bu kullanıcı artık burada yok.
+* `411 / Uzunluk Gerekli` – Sunucu, geçerli bir içerik uzunluğu olmayan talebi kabul etmez (kullanım dışı).
+* `412 / Koşullu Talep Başarısız Oldu` – Belirtilen ön koşul yerine getirilmedi.
+* `413 / Talep Metni Çok Fazla` – Talep gövde metni çok fazla.
+* `414 / Talep URL’si Çok Uzun` – Sunucu talebi yerine getirmeyi reddediyor, Talep URL’si sunucunun yorumlayabileceğinden uzun.
+* `415 / Desteklenmeyen Medya Tipi` – Talep gövde metni desteklenmeyen bir formatta.
+* `416 / Desteklenmeyen URL Düzeni` – Talep URL’si sunucu tarafından tanınmıyor.
+* `417 / Bilinmeyen Kaynak Önceliği` – Bir kaynak önceliği seçenek etiketi vardı fakat Kaynak Önceliği başlığı yoktu.
+* `420` / Geçersiz Uzantı` – Geçersiz SIP Protokol Uzantısı kullanıldı fakat sunucu tarafından anlaşılmadı.
+* `421` / Uzantı Gerekli` – Sunucu, Desteklenenler başlığında listelenmeyen özel bir uzantı gerektiriyor.
+* `422` / Oturum Aralığı Çok Az` – Talep, minimum sürenin altında bir Oturum Bitiş Tarihi başlık alanı içeriyor.
+* `423` / Ara Çok Kısa` – Kaynağın sona erme süresi çok kısa.
+* `424 / Kötü Kullanım Bilgileri` – Talebin konum içeriği hatalıydı veya başarısız oldu.
+* `428 / Kullanım Kimliği Başlığı` – Sunucu politikası bir Kimlik başlığı gerektiriyor fakat bir başlık sunulmadı.
+* `429 / Referans Veren Kimliği Sağlayın` – Sunucu, talep üzerine geçerli bir Referansı Veren token’ı almadı.
+* `430 / Akış Başarısız Oldu` – Bir kullanıcı temsilcisine özel akış başarısız oldu fakat diğer akışlar başarılı olabilir.
+* `433 / Anonimliğe İzin Verilmez` – Talep reddedildi çünkü anonimdi.
+* `436 / Geçersiz Kimlik Bilgileri` – Talebin bir Kimlik Bilgileri başlığı vardır ve içindeki URL düzeninin referansı verilemez.
+* `437 / Desteklenmeyen Sertifika` – Sunucu, talebi imzalayan alan için sertifikanın geçerliliğini doğrulayamadı.
+* `438 / Geçersiz Kimlik Başlığı` – Sunucu bir talebi imzalamada kullanılan geçerli bir sertifika aldı ancak imzayı doğrulayamadı.
+* `439 / İlk Atlamada Giden Desteği Yok – İlk giden proxy, “giden” özelliğini desteklemiyor.
+* `440 / Maksimum Genişlik Aşıldı` – Bir SIP proxy, cevap kavramının istenen bir parallel çatal yerine getirmek için yeterli Maksimum Genişliğe sahip olduğunu belirlediyse ve bu proxy seri çatallamayla telafi etmede isteksizse ya da bunu başaramıyorsa veya bir yeniden yönlendirme gönderiyorsa, bu proxy bir 440 cevabı vermelidir. 440 cevabı alan bir müşteri, talebinin tüm olası yerlere ulaşmadığını anlayabilir.
+* `469 / Geçersiz Bilgi Paketi` – Bir SIP UA, UA’nın alım isteği belirtmediği bir Bilgi Paketine bağlı bir BİLGİ talebi alırsa; UA, UA’nın BİLGİ taleplerini almak istediği Bilgi Talepleri bulunan bir Recv bilgileri başlığı içeren bir 469 cevabı GÖNDERMELİDİR.
+* `470 / Onay Gerekli` – Talep kaynağı, böyle bir talebi yerine getirmek için alıcının iznine sahip değildi.
+* `480 / Geçici Olarak Ulaşılamıyor` – Aranan kişiye şu anda ulaşılamıyor.
+* `481 / Arama/İşlem Mevcut Değil` – Sunucu, herhangi bir diyalog veya işlemle eşleşen bir talep almadı.
+* `482 / Döngü Tespit Edildi` – Sunucu bir döngü tespit etti.
+* `483 / Çok Fazla Atlama` – Maksimum İletme başlığı ‘0’ değerine ulaştı.
+* `484 / Eksik Adres` – Talep URL’si eksik.
+* `485 / Belirsiz` – Talep URL’si belirsiz.
+* `486 / Burası Meşgul` – Aranan kişi meşgul.
+* `487 / Talep Sona Erdi` – Talep sonlandırıldı veya iptal edildi.
+* `488 / Burada Kabul Edilmez` – Talep URL’si oturum tanımının bazı yönleri kabul edilmez.
+* `491 / Talep Beklemede` – Sunucuda aynı diyalogdan birkaç bekleyen talep var.
+* `493 / Deşifre Edilemiyor` – Deşifre Edilemiyor Talebi, alıcının deşifre edemediği şifrelenmiş bir MIME gövde metni içerir.
+* `494 / Güvenlik Anlaşması Gerekli` – Sunucu, müzakere edilmiş bir güvenlik mekanizması gerektiren bir talep aldı.
 
-## 5xx = Sunucu hataları :
+## 5xx = Server errors / Sunucu hataları :
 ---
-* `500 /Dahili Sunucu Hatası` – Bazı beklenmeyen koşullar nedeniyle sunucu talebi yerine getiremedi.
-* `501 /Uygulanmadı` – SIP talep yöntemi burada uygulanmaz.
-* `502 /Geçersiz Ağ Geçidi` – Sunucu bir talebi yerine getirmeye çalışırken, alt sistemdeki bir sunucudan geçersiz bir cevap aldı.
-* `503 /Hizmet Kullanılamıyor` – Sunucu bakımda veya geçici olarak aşırı yükleme vardır, talep işlenemiyor.
-* `504 /Sunucuda Zaman Aşımı` – Sunucu bir talebi işlemeye çalışırken başka bir sunucuya erişmeye çalıştı, zamanında cevap veremedi.
-* `505 /Sürüm Desteklenmiyor` – Talepteki SIP protokolü sürümü sürücü tarafından desteklenmiyor.
-* `513 /Mesaj Çok Fazla` – Talep mesaj uzunluğu, sürücünün işleyebileceğinden daha uzundur.
-* `555 /Anlık Bildirim Hizmeti Desteklenmiyor` – Sunucu, pn sağlayıcı URL parametresinde belirtilen anlık bildirim hizmetini desteklemiyor.
-* `580 /Ön Koşul Geçersizliği` – Sunucu, teklifte belirtilen bazı sınırlamaları karşılayamıyor veya karşılamak istemiyor.
+* `500 Server Internal Error / Dahili Sunucu Hatası` – Bazı beklenmeyen koşullar nedeniyle sunucu talebi yerine getiremedi.
+* `501 Not Implemented / Uygulanmadı` – SIP talep yöntemi burada uygulanmaz.
+* `502 Bad Gateway / Geçersiz Ağ Geçidi` – Sunucu bir talebi yerine getirmeye çalışırken, alt sistemdeki bir sunucudan geçersiz bir cevap aldı.
+* `503 Service Unavailable / Hizmet Kullanılamıyor` – Sunucu bakımda veya geçici olarak aşırı yükleme vardır, talep işlenemiyor.
+* `504 Server Time-out / Sunucuda Zaman Aşımı` – Sunucu bir talebi işlemeye çalışırken başka bir sunucuya erişmeye çalıştı, zamanında cevap veremedi.
+* `505 Version Not Supported / Sürüm Desteklenmiyor` – Talepteki SIP protokolü sürümü sürücü tarafından desteklenmiyor.
+* `513 Message Too Large / Mesaj Çok Fazla` – Talep mesaj uzunluğu, sürücünün işleyebileceğinden daha uzundur.
+* `555 Push Notification Service Not Supported / Anlık Bildirim Hizmeti Desteklenmiyor` – Sunucu, pn sağlayıcı URL parametresinde belirtilen anlık bildirim hizmetini desteklemiyor.
+* `580 Precondition Failure / Ön Koşul Geçersizliği` – Sunucu, teklifte belirtilen bazı sınırlamaları karşılayamıyor veya karşılamak istemiyor.
 
-## 6xx = Global olarak yerine getirilemeyenler:
+## 6xx = Global failures / Global olarak yerine getirilemeyenler:
 ---
-* `600 /Her Yer Meşgul` – Tüm olası hedefler meşguldür.
-* `603 /Reddedilme` – Hedef, aramaya katılamıyor veya katılmak istemiyor; alternatif hedef bulunmuyor.
-* `604 /Hiçbir Yerde Bulunmuyor` – Talep edilen kullanıcının hiçbir yerde bulunmadığına dair sunucunun yetkisel bilgisi mevcuttur.
-* `606 /Kabul Edilemez` – Kullanıcının temsilcisine başarıyla ulaşıldı ancak oturum tanımının bazı yönleri kabul edilmedi.
-* `607 /İstenmedi` – Aranan taraf, arayan tarafın aramasını istemedi. Arayan tarafın gelecekteki girişimlerinin de benzer şekilde reddedilmesi muhtemeldir.
+* `600 Busy Everywhere / Her Yer Meşgul` – Tüm olası hedefler meşguldür.
+* `603 Decline / Reddedilme` – Hedef, aramaya katılamıyor veya katılmak istemiyor; alternatif hedef bulunmuyor.
+* `604 Does Not Exist Anywhere / Hiçbir Yerde Bulunmuyor` – Talep edilen kullanıcının hiçbir yerde bulunmadığına dair sunucunun yetkisel bilgisi mevcuttur.
+* `606 Not Acceptable  / Kabul Edilemez` – Kullanıcının temsilcisine başarıyla ulaşıldı ancak oturum tanımının bazı yönleri kabul edilmedi.
+* `607 Unwanted / İstenmedi` – Aranan taraf, arayan tarafın aramasını istemedi. Arayan tarafın gelecekteki girişimlerinin de benzer şekilde reddedilmesi muhtemeldir.

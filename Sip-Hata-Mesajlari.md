@@ -18,7 +18,7 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * **MESSAGE   :**	Kısa mesaj gönderir. Anlık mesajlaşma uygulamalarında kullanılır.
 * **INFO      :**	Oturum durumunu değiştirmeyen oturum ortası bilgileri göndermek için kullanılır. Bu yöntem genellikle DTMF rölesi için kullanılır.
 * **OPTIONS   :**	Bir uç noktanın yeteneklerini sorgular. Genellikle NAT ve keepalive için kullanılır.
-
+<hr>
 ## 1xx = Informational SIP responses / Bilgi İçerikli SIP Cevapları
 ---
 

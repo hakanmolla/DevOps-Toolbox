@@ -53,8 +53,8 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `405 Method Not Allowed / İzin Verilmeyen Yöntem` – Talep Satırında belirtilen yöntem anlaşıldı fakat izin verilmiyor.
 * `406 Not Acceptable / Kabul Edilemez` – Kaynak sadece Kabul edilemez içeriğe sahip cevaptlar üretebilmektedir.
 * `407 Proxy Authentication Required / Proxy Kimlik Doğrulaması Gerekli` – Talep, kullanıcı kimlik bilgilerinin doğrulanmasını gerektiriyor.
-* `408` Request Timeout / Talep Zaman Aşımı` – Kullanıcı gerekli süre içerisinde bulunamadı.
-* `409` Conflict / Uyumsuzluk` – Kullanıcı zaten kayıtlıdır (kullanım dışı).
+* `408 Request Timeout / Talep Zaman Aşımı` – Kullanıcı gerekli süre içerisinde bulunamadı.
+* `409 Conflict / Uyumsuzluk` – Kullanıcı zaten kayıtlıdır (kullanım dışı).
 * `410 Gone / Gitmiş` – Bir zamanlar var olan bu kullanıcı artık burada yok.
 * `411 Length Required / Uzunluk Gerekli` – Sunucu, geçerli bir içerik uzunluğu olmayan talebi kabul etmez (kullanım dışı).
 * `412 Conditional Request Failed  / Koşullu Talep Başarısız Oldu` – Belirtilen ön koşul yerine getirilmedi.
@@ -63,34 +63,35 @@ Sip Haberleşmesinde bilinen sip hata kodlarının anlamları ile birlikte aşa�
 * `415 Unsupported Media Type / Desteklenmeyen Medya Tipi` – Talep gövde metni desteklenmeyen bir formatta.
 * `416 Unsupported URI Scheme / Desteklenmeyen URL Düzeni` – Talep URL’si sunucu tarafından tanınmıyor.
 * `417 Uknown Resource-Priority / Bilinmeyen Kaynak Önceliği` – Bir kaynak önceliği seçenek etiketi vardı fakat Kaynak Önceliği başlığı yoktu.
-* `420` Bad Extension / Geçersiz Uzantı` – Geçersiz SIP Protokol Uzantısı kullanıldı fakat sunucu tarafından anlaşılmadı.
-* `421` Extension Required / Uzantı Gerekli` – Sunucu, Desteklenenler başlığında listelenmeyen özel bir uzantı gerektiriyor.
-* `422` Session Interval Too Small / Oturum Aralığı Çok Az` – Talep, minimum sürenin altında bir Oturum Bitiş Tarihi başlık alanı içeriyor.
-* `423`Interval Too Brief / Ara Çok Kısa` – Kaynağın sona erme süresi çok kısa.
+* `420 Bad Extension / Geçersiz Uzantı` – Geçersiz SIP Protokol Uzantısı kullanıldı fakat sunucu tarafından anlaşılmadı.
+* `421 Extension Required / Uzantı Gerekli` – Sunucu, Desteklenenler başlığında listelenmeyen özel bir uzantı gerektiriyor.
+* `422 Session Interval Too Small / Oturum Aralığı Çok Az` – Talep, minimum sürenin altında bir Oturum Bitiş Tarihi başlık alanı içeriyor.
+* `423  Interval Too Brief / Ara Çok Kısa` – Kaynağın sona erme süresi çok kısa.
 * `424 Bad Location Information/ Kötü Kullanım Bilgileri` – Talebin konum içeriği hatalıydı veya başarısız oldu.
 * `428 Use Identity Header / Kullanım Kimliği Başlığı` – Sunucu politikası bir Kimlik başlığı gerektiriyor fakat bir başlık sunulmadı.
-* `429 Provide Referrer Identity  / Referans Veren Kimliği Sağlayın` – Sunucu, talep üzerine geçerli bir Referansı Veren token’ı almadı.
-* `430 / Akış Başarısız Oldu` – Bir kullanıcı temsilcisine özel akış başarısız oldu fakat diğer akışlar başarılı olabilir.
-* `433 / Anonimliğe İzin Verilmez` – Talep reddedildi çünkü anonimdi.
-* `436 / Geçersiz Kimlik Bilgileri` – Talebin bir Kimlik Bilgileri başlığı vardır ve içindeki URL düzeninin referansı verilemez.
-* `437 / Desteklenmeyen Sertifika` – Sunucu, talebi imzalayan alan için sertifikanın geçerliliğini doğrulayamadı.
-* `438 / Geçersiz Kimlik Başlığı` – Sunucu bir talebi imzalamada kullanılan geçerli bir sertifika aldı ancak imzayı doğrulayamadı.
-* `439 / İlk Atlamada Giden Desteği Yok – İlk giden proxy, “giden” özelliğini desteklemiyor.
-* `440 / Maksimum Genişlik Aşıldı` – Bir SIP proxy, cevap kavramının istenen bir parallel çatal yerine getirmek için yeterli Maksimum Genişliğe sahip olduğunu belirlediyse ve bu proxy seri çatallamayla telafi etmede isteksizse ya da bunu başaramıyorsa veya bir yeniden yönlendirme gönderiyorsa, bu proxy bir 440 cevabı vermelidir. 440 cevabı alan bir müşteri, talebinin tüm olası yerlere ulaşmadığını anlayabilir.
-* `469 / Geçersiz Bilgi Paketi` – Bir SIP UA, UA’nın alım isteği belirtmediği bir Bilgi Paketine bağlı bir BİLGİ talebi alırsa; UA, UA’nın BİLGİ taleplerini almak istediği Bilgi Talepleri bulunan bir Recv bilgileri başlığı içeren bir 469 cevabı GÖNDERMELİDİR.
-* `470 / Onay Gerekli` – Talep kaynağı, böyle bir talebi yerine getirmek için alıcının iznine sahip değildi.
-* `480 / Geçici Olarak Ulaşılamıyor` – Aranan kişiye şu anda ulaşılamıyor.
-* `481 / Arama/İşlem Mevcut Değil` – Sunucu, herhangi bir diyalog veya işlemle eşleşen bir talep almadı.
-* `482 / Döngü Tespit Edildi` – Sunucu bir döngü tespit etti.
-* `483 / Çok Fazla Atlama` – Maksimum İletme başlığı ‘0’ değerine ulaştı.
-* `484 / Eksik Adres` – Talep URL’si eksik.
-* `485 / Belirsiz` – Talep URL’si belirsiz.
-* `486 / Burası Meşgul` – Aranan kişi meşgul.
-* `487 / Talep Sona Erdi` – Talep sonlandırıldı veya iptal edildi.
-* `488 / Burada Kabul Edilmez` – Talep URL’si oturum tanımının bazı yönleri kabul edilmez.
-* `491 / Talep Beklemede` – Sunucuda aynı diyalogdan birkaç bekleyen talep var.
-* `493 / Deşifre Edilemiyor` – Deşifre Edilemiyor Talebi, alıcının deşifre edemediği şifrelenmiş bir MIME gövde metni içerir.
-* `494 / Güvenlik Anlaşması Gerekli` – Sunucu, müzakere edilmiş bir güvenlik mekanizması gerektiren bir talep aldı.
+* `429 Provide Referrer Identity / Referans Veren Kimliği Sağlayın` – Sunucu, talep üzerine geçerli bir Referansı Veren token’ı almadı.
+* `430 Flow Failed / Akış Başarısız Oldu` – Bir kullanıcı temsilcisine özel akış başarısız oldu fakat diğer akışlar başarılı olabilir.
+* `433 Anonymity Disallowed / Anonimliğe İzin Verilmez` – Talep reddedildi çünkü anonimdi.
+* `436 Bad Identity Info  / Geçersiz Kimlik Bilgileri` – Talebin bir Kimlik Bilgileri başlığı vardır ve içindeki URL düzeninin referansı verilemez.
+* `437 Unsupported Certificate / Desteklenmeyen Sertifika` – Sunucu, talebi imzalayan alan için sertifikanın geçerliliğini doğrulayamadı.
+* `438 Invalid Identity Header / Geçersiz Kimlik Başlığı` – Sunucu bir talebi imzalamada kullanılan geçerli bir sertifika aldı ancak imzayı doğrulayamadı.
+* `439 First Hop Lacks Outbound Support / İlk Atlamada Giden Desteği Yok – İlk giden proxy, “giden” özelliğini desteklemiyor.
+* `440 Max-Breadth Exceeded / Maksimum Genişlik Aşıldı` – Bir SIP proxy, cevap kavramının istenen bir parallel çatal yerine getirmek için yeterli Maksimum Genişliğe sahip olduğunu belirlediyse ve bu proxy seri çatallamayla telafi etmede isteksizse ya da bunu başaramıyorsa veya bir yeniden yönlendirme gönderiyorsa, bu proxy bir 440 cevabı vermelidir. 440 cevabı alan bir müşteri, talebinin tüm olası yerlere ulaşmadığını anlayabilir.
+* `469 Bad Info Package/ Geçersiz Bilgi Paketi` – Bir SIP UA, UA’nın alım isteği belirtmediği bir Bilgi Paketine bağlı bir BİLGİ talebi alırsa; UA, UA’nın BİLGİ taleplerini almak istediği Bilgi Talepleri bulunan bir Recv bilgileri başlığı içeren bir 469 cevabı GÖNDERMELİDİR.
+* `470 Consent Needed  / Onay Gerekli` – Talep kaynağı, böyle bir talebi yerine getirmek için alıcının iznine sahip değildi.
+* `480 Temporarily Unavailable / Geçici Olarak Ulaşılamıyor` – Aranan kişiye şu anda ulaşılamıyor.
+* `481 Call/Transaction Does Not Exist / Arama/İşlem Mevcut Değil` – Sunucu, herhangi bir diyalog veya işlemle eşleşen bir talep almadı.
+* `482 Loop Detected / Döngü Tespit Edildi` – Sunucu bir döngü tespit etti.
+* `483 Too Many Hops / Çok Fazla Atlama` – Maksimum İletme başlığı ‘0’ değerine ulaştı.
+* `484 Address Incomplete / Eksik Adres` – Talep URL’si eksik.
+* `485 Ambiguous / Belirsiz` – Talep URL’si belirsiz.
+* `486 Busy Here / Burası Meşgul` – Aranan kişi meşgul.
+* `487 Request Terminated / Talep Sona Erdi` – Talep sonlandırıldı veya iptal edildi.
+* `488 Not Acceptable Here / Burada Kabul Edilmez` – Talep URL’si oturum tanımının bazı yönleri kabul edilmez.
+* `489 Bad Event / Kötü Olay` - Sunucu, Olay başlığı alanında belirtilen bir olay paketini anlamadı.
+* `491 Request Pendin/ Talep Beklemede` – Sunucuda aynı diyalogdan birkaç bekleyen talep var.
+* `493 Undecipherable / Deşifre Edilemiyor` – Deşifre Edilemiyor Talebi, alıcının deşifre edemediği şifrelenmiş bir MIME gövde metni içerir.
+* `494 Security Agreement Required / Güvenlik Anlaşması Gerekli` – Sunucu, müzakere edilmiş bir güvenlik mekanizması gerektiren bir talep aldı.
 
 ## 5xx = Server errors / Sunucu hataları :
 ---

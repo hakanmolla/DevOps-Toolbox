@@ -1,13 +1,13 @@
-pwd Komutu Nedir ?
+## cp Komutu
 
-Linux işletim sistemlerinde kullanılan pwd komutu, "print working directory" yani çalışma dizinini yazdırma anlamına gelir. Bu komut, kullanıcının bulunduğu konumu belirlemek için kullanılır.
 
-Bu komutu kullanmak oldukça basittir, sadece terminal penceresine pwd yazarak çalıştırabilirsiniz. Bu komut çalıştırıldığında, terminal size mevcut konumunuzu (yani hangi dizinde olduğunuzu) tam yolu ile söyleyecektir.
+cp komutu, bir dosyayı veya klasörü başka bir dosyaya veya klasöre kopyalamak için kullanılır. Örneğin, cp dosya1.txt dosya2.txt komutu, dosya1.txt'yi dosya2.txt olarak adlandırılan yeni bir dosyaya kopyalar.
 
-Örneğin, eğer home/user/documents dizinindeyseniz, pwd komutunu çalıştırdığınızda /home/user/documents çıktısını alırsınız.
+## cp komutu bazı kullanışlı parametrelere sahiptir:
 
-Ayrıca, bazı durumlarda, başka bir dizinde çalışıyor olmanıza rağmen cd komutuyla alt dizinlere gitmiş olabilirsiniz. Bu durumda, pwd komutu size tam yolunu söyleyecektir.
+- -r : Bu parametre, klasörleri kopyalamak için kullanılır. Örneğin, cp -r klasor1 klasor2 komutu, klasor1 adlı klasörü klasor2 adlı yeni bir klasöre kopyalar.
+- -i : Bu parametre, kopyalama işlemi sırasında üzerine yazma işlemi gerçekleşmeden önce kullanıcıya bir onay sorar.
 
-Bu komutun bazı faydalı seçenekleri de vardır. Örneğin, -L seçeneği, sembolik bağlantıların takip edilmesini sağlar. -P seçeneği ise, tüm sembolik bağlantıların ayrıntılı olarak takip edilmesini sağlar ve sonuçta sembolik bağlantıların gösterilmediği bir yolu verir.
+**Örneğin**, cp -i dosya1.txt dosya2.txt komutu, 
 
-Özetle, pwd komutu, çalışma dizininin tam yolunu görüntülemek için kullanılır. Bu, kullanıcının nerede olduğunu veya hangi dizinde çalıştığını anlamak için yararlıdır.
+dosya1.txt'yi dosya2.txt olarak adlandırılan bir dosyaya kopyalarken, eğer dosya2.txt adlı dosya zaten varsa kullanıcıya üzerine yazma işlemini onaylaması için bir soru sorar.

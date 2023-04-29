@@ -1,7 +1,6 @@
-## Asterisk 20 Ubuntu için Setup
-
-
 ## Asterisk 20 Setup Adımları 
+
+
 -	   1  ```sh sudo apt update ```
 -	   2  ```sh sudo apt upgrade -y ```
 -	   3  ```sh cd /usr/src/ ```

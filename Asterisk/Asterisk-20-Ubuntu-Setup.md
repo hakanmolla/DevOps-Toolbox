@@ -68,6 +68,7 @@
  
   	```bash
    	sudo make config 
+
    	```
 
   	```bash
@@ -84,3 +85,13 @@
 	```bash 
 	sudo asterisk -rvvvvv 
 	```
+
+
+
+```bash
+python get-pip.py
+```
+
+	```bash
+python get-pip.py
+```

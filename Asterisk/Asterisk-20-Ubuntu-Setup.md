@@ -50,26 +50,25 @@ sudo contrib/scripts/get_swagger_ui.sh
 sudo ./configure 
 ```
 
-	```bash 
-	  sudo make menuselect 
-	```
+```bash 
+sudo make menuselect 
+```
 
-	```bash 
-	sudo make 
-	```
+```bash 
+sudo make 
+```
 
-	```bash
-	sudo make install 
-	```
+```bash
+sudo make install 
+```
 
-	```bash
-	    sudo make samples 
-	```
+```bash
+sudo make samples 
+```
  
-  	```bash
-   	sudo make config 
-
-   	```
+```bash
+sudo make config 
+```
 
 ```bash
 sudo service asterisk status 
@@ -87,7 +86,3 @@ sudo asterisk -rvvvvv
 ```
 
 
-
-```bash
-python get-pip.py
-```

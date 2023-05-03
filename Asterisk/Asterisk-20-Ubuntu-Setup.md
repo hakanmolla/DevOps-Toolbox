@@ -1,7 +1,6 @@
 ## Asterisk 20 Setup Adımları 
 
 
-
 ```bash
 sudo apt update 
 ```

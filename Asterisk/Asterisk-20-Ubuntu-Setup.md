@@ -2,19 +2,19 @@
 
 
 
-   ``` sudo apt update ```
+   ```sh sudo apt update ```
 
-	   ``` sudo apt upgrade -y ```
+	   ```sh sudo apt upgrade -y ```
 
-	    ``` cd /usr/src/ ```
+	    ```sh cd /usr/src/ ```
 
-	    ``` sudo wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz ```
+	    ```sh sudo wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz ```
 
-	   ``` sudo tar xvf asterisk-20-current.tar.gz ```
+	   ```sh sudo tar xvf asterisk-20-current.tar.gz ```
 
-	    ``` cd asterisk-20* ```
+	    ```sh cd asterisk-20* ```
 
-	   ``` sudo git clone  https://github.com/felipem1210/asterisk-res_json.git ```
+	   ```sh sudo git clone  https://github.com/felipem1210/asterisk-res_json.git ```
 
 	    ``` sudo ./asterisk-res_json/install.sh ```
 

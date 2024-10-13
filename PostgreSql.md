@@ -44,6 +44,7 @@ host all all 0.0.0.0/0 md5
 - **sudo -u postgres psql** komutu ile postgresql giriş yapınız.
 - **\l** bu komut Databasse listesini gösteriyor
 - **\du** bu komut Kullanıcı listesini gösteriyor
+-  **\q** bu komut cıkmak için kullanılıyor
 
 - Kullanıcı Oluşturmak için 
 ```bash 

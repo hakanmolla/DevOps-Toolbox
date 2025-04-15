@@ -5,7 +5,7 @@ Aşağıdaki komutlarla paketlerinizi güncelleyebilir ve istediğiniz paketleri
 ```bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get install vim nano iputils-ping traceroute net-tools sngrep wget curl git htop tmux -y
+sudo apt-get install vim nano iputils-ping traceroute net-tools sngrep wget curl git htop tmux rsyslog -y
 ```
 
 
